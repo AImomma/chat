@@ -1,0 +1,23 @@
+Nano Banana Pro prompt — one clean, single-subject reference plate.
+Save as od_prompts/<short_slug>/refs/ref_<role>_<angle>.txt
+
+---
+
+[If refining from a user-supplied photo, open with the identity-lock relationship instruction. If generating from scratch, open with the subject/action/context/composition/style formula instead. Use exactly one of the two openings below.]
+
+[OPENING A — refining a supplied photo]
+Using the attached photo as the exact identity reference, generate [new pose/angle/context] of the same person. Keep facial features, proportions, skin tone, hair, and [wardrobe items to lock] exactly the same as the attached reference. Change only [what should differ: pose, angle, expression, lighting].
+
+[OPENING B — generating from scratch as the primary plate for this subject]
+[Subject: full physical description using the fixed identity-descriptor sentence for this entity] + [Action/pose] + [Location/backdrop — plain, uncluttered, unless this is a location plate] + [Composition: shot scale, framing, centering] + [Style: photographic/rendering treatment, camera/lens/lighting vocabulary].
+
+---
+
+Constraints for every reference plate, regardless of opening:
+
+- Exactly one subject in frame (or, for a location plate, the environment with no incidental characters unless explicitly needed for scale).
+- Plain or minimally styled backdrop — nothing that competes with the subject as the identity/appearance source.
+- State the aspect ratio to match the target video's aspect ratio (default 16:9) so the plate composes cleanly if it needs a same-ratio crop.
+- Use positive scene phrasing throughout — describe what should be in frame, not what to exclude, except when scoping a secondary input reference's role (e.g. "use the attached fabric swatch only for texture, not color").
+- Do not include any internal planning ID (C1, C2, P##) as visible text anywhere in the prompt or expect it to render — describe the entity in plain language only.
+- End with the fixed identity-descriptor sentence for this entity, stated exactly as it appears in every other prompt referencing them.

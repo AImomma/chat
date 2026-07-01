@@ -1,0 +1,35 @@
+Nano Banana Pro prompt — sparse storyboard preview sheet.
+Save as od_prompts/<short_slug>/storyboard_preview.txt
+Human staging/camera preview only. This file is never attached to a Veo call.
+
+---
+
+Create a [aspect ratio, default 16:9] storyboard preview sheet with [panel count] panels covering the full P## sequence for [one-line scene premise].
+
+[HEADER]
+"[cinematic title, 2-5 words]"
+"[one compact sequence-goal line]"
+
+[BOARD STRUCTURE]
+AUTO layout, [panel count] panels. Compact panel headers: `P## / shot tag / beat name`.
+
+[VISUAL STYLE]
+Panel interiors are silent, sparse, open-outline blocking thumbnails: outer body-mass and limb contours only, thin uniform linework, broad negative space, no internal anatomy, no face detail, no clothing/material detail, no color, no shading beyond flat outline. These panels exist to validate camera angle, shot scale, framing, pose, screen direction, and spatial layout only — they carry no final identity, style, or color information. That information lives in the reference plates and the video prompts, not here.
+
+[CONTINUITY]
+Keep entity count, screen position, and spatial geography consistent across panels. Each panel is one frozen instant — no before/after wording, no combined time states for one entity in one panel.
+
+[COUNT LOCK — omit if not count-sensitive]
+Every panel preserves exactly [count + role names] as one instance each. A fallen/dropped/broken/changed entity is the same entity continuing, not a duplicate.
+
+[TEXT RULES]
+Visible text: only the two quoted header lines and the compact panel headers. No other labels, arrows, icons, or annotations inside panels.
+
+[CONSTRAINTS]
+No color, no finished illustration detail, no duplicate/ghost entities, no visible internal IDs, no logos or watermarks beyond the sheet's own header design.
+
+[BEATS]
+One panel per P##, using the panel-writing pattern from references/craft-guide.md:
+P01: [camera angle + shot scale + composition + role silhouette pose + screen position + object/effect state + spatial relation + visible result]
+P02: [...]
+...

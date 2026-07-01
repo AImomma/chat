@@ -1,0 +1,29 @@
+Veo 3.1 prompt — one ~8-second call, covering P## range [start]-[end].
+Save as od_prompts/<short_slug>/video/shot_<NN>.txt
+
+---
+
+ATTACH AS ASSET: [ref_c1_front.png, ref_c1_action.png]   (character/subject identity — up to 3 per call)
+ATTACH AS STYLE: [ref_style.png or "none — style carried in prose"]   (up to 1 per call; verify Veo 3.1 support before relying on this — see references/veo-video-prompting.md)
+
+[If this call continues from a prior clip via extension, note it here: "Extends shot_<NN-1>.txt; reuse the same ASSET/STYLE attachments; Veo seeds automatically from the prior clip's final ~1s."]
+
+---
+
+CINEMATOGRAPHY: [shot type + camera movement + lens/DOF feel, matching the storyboard panel's camera intent for this P## range]
+SUBJECT: [role-noun description matching each attached asset's fixed identity-descriptor sentence, verbatim]
+ACTION: [trigger + movement + reaction + spatial relation + visible result]
+CONTEXT: [location/scene anchors, consistent with the location plate if one exists]
+STYLE & AMBIANCE: [lighting key + motivated source, color/palette emotion, lens/DOF feel, atmosphere — from the Cinematography Layer in references/craft-guide.md]
+
+DIALOGUE: [Role-noun] says, "[exact line]" — omit this line entirely if the beat has no dialogue.
+SFX: [description] — omit if none.
+AMBIENT: [description] — omit if none.
+[If suppressing an audio channel: state it plainly, e.g. "no background music" — this is the one place literal negation is the right tool, see references/veo-video-prompting.md.]
+
+BEATS (timestamped sub-shots within this call's duration budget):
+[00:00-00:0X] P##: [camera + action + spatial relation + visible result for this sub-beat]
+[00:0X-00:0Y] P##: [...]
+...
+
+[Do not include @image#, @element_name, or any bracketed image-index token anywhere above. Reference binding is entirely through the ATTACH block and the SUBJECT role-noun description, matched to the plate.]

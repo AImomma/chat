@@ -1,0 +1,33 @@
+Save as od_prompts/<short_slug>/00_notes.txt
+
+---
+
+SCENE: [one-line premise]
+FILES:
+  storyboard_preview.txt   -> Nano Banana Pro. Human preview only. Do NOT attach to Veo.
+  refs/ref_*.txt           -> Nano Banana Pro, one call per file. Save each output image with the matching name (e.g. ref_c1_front.png) before moving to video.
+  video/shot_01.txt ...    -> Veo 3.1, one call per file, ~8s each.
+
+ATTACHMENT MAP (which plate goes where, per shot):
+  shot_01.txt: ASSET = [ref_c1_front.png, ref_c1_action.png], STYLE = [ref_style.png / none]
+  shot_02.txt: ASSET = [...], STYLE = [...]
+  ...
+
+GENERATION ORDER:
+  1. Generate every refs/ref_*.txt image first with Nano Banana Pro. If any plate is a refinement of another (bootstrapped chain), generate the primary plate first and feed it back in as the input reference for the secondary plate — don't generate all plates independently from text alone.
+  2. Generate storyboard_preview.txt with Nano Banana Pro and review blocking/camera before spending on video. Revise the P## spine here if staging is wrong — cheaper to fix now than after a Veo call.
+  3. Generate video/shot_01.txt, attaching the plates listed in the attachment map for that shot as ASSET/STYLE references (not as prompt text).
+  4. For shot_02.txt onward: if it's a new, unrelated call, generate normally with the same attachment discipline. If it continues shot_01 past 8 seconds, use Veo's extend feature, which seeds from shot_01's final ~1 second automatically — but you must still re-attach the same ASSET/STYLE plates on the extension call; extension does not carry reference bindings forward on its own.
+
+CONTINUITY ACROSS SHOTS:
+  - Every character/prop appearing in more than one shot uses the same fixed identity-descriptor sentence and the same attached asset plates in every shot they appear in.
+  - Max ~148 seconds total via chained extensions (8s base + up to ~20 extensions of +7s each) — verify this ceiling is still current before planning a long sequence.
+
+LIVE-VERIFICATION CAVEATS (check before relying on these):
+  - Style-type reference images (referenceImages.style) have been reported unreliable on Veo 3.1 in at least one case, with Veo 2 suggested as a fallback. If style_ref shots look off, drop the STYLE attachment and move that intent into the STYLE & AMBIANCE prose line instead.
+  - Asset reference images have been reported limited to 16:9 output on some endpoints — if a shot needs 9:16 and uses ASSET references, test a short throwaway generation first.
+  - Confirm current Veo model availability/IDs before starting a long project; older Veo tiers may have been retired.
+
+IF A CHARACTER'S IDENTITY DRIFTS ACROSS SHOTS:
+  - First check: are the same asset plates attached to every shot they appear in, and is the identity-descriptor sentence worded identically every time? Drift usually traces back to one of these two being inconsistent.
+  - If it persists after that, see the "forensic" escalation technique in references/veo-video-prompting.md.
