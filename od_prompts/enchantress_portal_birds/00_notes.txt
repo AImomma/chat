@@ -1,49 +1,43 @@
 SCENE: "Not Again" — an enchantress's spell overloads, tears open a portal, and two fluffy birds tumble through. She reseals it, sulks, then a new voice says "Um... hello?" (sequel hook.)
 TITLE: "Not Again"
-TOTAL RUNTIME: 20s across two independent Veo clips (10s each — see DURATION OVERRIDE below).
+TARGET SURFACE: Google Flow + Omni Flash. Max 10s per call, confirmed — this project is 2 stitched calls, 20s total.
+TOTAL RUNTIME: 20s across two stitched Omni calls (10s each — Omni's per-call ceiling is confirmed at 10s; longer sequences must be stitched afterward, not attempted in one call).
 
 FILES:
-  storyboard_preview_A.txt  -> Nano Banana Pro. Panels P01-P04 (covers video/shot_01.txt). Human preview only.
-  storyboard_preview_B.txt  -> Nano Banana Pro. Panels P05-P08 (covers video/shot_02.txt). Human preview only.
-  video/shot_01.txt         -> Veo, ~10s, P01-P04.
-  video/shot_02.txt         -> Veo, ~10s, P05-P08.
+  grids/grid_shot_01.txt  -> Nano Banana Pro. Rendered, captioned 2x2 grid, P01-P04. Real generation input (not preview) — upload the result as grid_shot_01.png.
+  grids/grid_shot_02.txt  -> Nano Banana Pro. Rendered, captioned 2x2 grid, P05-P08. Real generation input — upload the result as grid_shot_02.png.
+  video/shot_01.txt       -> Omni Flash, 10s, references @grid_shot_01.png + character ingredients.
+  video/shot_02.txt       -> Omni Flash, 10s, references @grid_shot_02.png + character ingredients.
 
-REFERENCE IMAGES (used directly as ASSET plates — no generation needed):
-  Save your three supplied images as:
-    enchantress_ref.png   -> the hooded enchantress with staff
-    bird_blue_ref.png     -> the blue/white fluffy bird, tall crest, cheerful expression
-    bird_purple_ref.png   -> the violet/purple fluffy bird, low-lidded skeptical expression
-  All three already qualify as clean, single-subject, plain-background plates per the skill's reference-plate rules — no ref/ generation prompts were written. 3 characters x 1 image each = exactly fills Veo's 3-asset-slot cap; nobody had to be dropped.
+INGREDIENT FILES (name exactly as shown — the filename IS the @tag Flow resolves):
+  enchantress_ref.png   -> your supplied hooded enchantress reference (used as-is, no plate generation needed)
+  bird_blue_ref.png     -> your supplied blue/white fluffy bird reference (used as-is)
+  bird_purple_ref.png   -> your supplied violet/purple fluffy bird reference (used as-is)
+  grid_shot_01.png       -> generated from grids/grid_shot_01.txt
+  grid_shot_02.png       -> generated from grids/grid_shot_02.txt
 
-FIXED IDENTITY DESCRIPTORS (reuse verbatim in every prompt mentioning that character):
+FIXED IDENTITY DESCRIPTORS (reuse verbatim in every grid/video prompt mentioning that character):
   Enchantress: "a young hooded enchantress with a dark complexion and sharp gray eyes, wearing deep indigo-blue hooded robes with pale blue trim and a tan belt sash, wielding a tall blue staff topped with a faceted crystal"
   Blue bird: "a small round fluffy bird with vivid cobalt-blue plumage, a tall swept-back crest, a fluffy white face and belly, wide sparkling blue eyes, and a cheerful expression"
   Purple bird: "a small round fluffy bird with deep violet-blue plumage, a tufted crest, oversized pale eyes with a low-lidded skeptical expression"
 
 DUAL-STYLE DECISION (intentional, not a mismatch to fix):
-  The enchantress reference is flat-shaded anime art; both bird references are photorealistic fluffy stylized-3D renders. Per the user, this is deliberate: the birds are from another world, so their visibly different render style is the visual joke, not an error to unify away. Every prompt below keeps the enchantress and her environment in full flat-shaded anime style (matching her reference exactly) while both birds keep their full original photorealistic fluffy-3D style (matching their references exactly) — two coexisting visual languages in the same frame, on purpose. Do not let either reference's style bleed onto the other; each reference now controls full appearance including render style for its own subject only.
-
-ATTACHMENT MAP:
-  shot_01.txt: ASSET = [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png], STYLE = none (style intent carried in prose, see style-unification note above)
-  shot_02.txt: ASSET = [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png], STYLE = none
-
-ENTITIES WITHOUT AN ASSET SLOT: none — all 3 recurring characters fit within the 3-slot cap.
-LOCATION PLATES: none generated. Location (open clearing/courtyard) is a simple, low-continuity-risk setting carried by prose in each shot's CONTEXT line only.
-
-DURATION: Omni, 2x10s independent clips (20s total) — this now matches the skill's default (Omni/10s unless a shorter clip is requested for a specific project).
-
-CONTINUITY BETWEEN CLIP 1 AND CLIP 2:
-  These are independent calls, not a chained extend — there's a natural comedic beat-change ("Not again" pause) between them. Continuity is carried by: (1) identical ASSET attachments in both clips, (2) identical identity-descriptor sentences, (3) shot_02's opening CONTEXT line explicitly restating the state shot_01 ended on (portal still open, birds just landed, enchantress startled) so Veo doesn't have to guess the starting state.
-
-IF A CHARACTER'S IDENTITY DRIFTS BETWEEN CLIP 1 AND CLIP 2:
-  Check first that both clips attach all three reference images identically and that the descriptor sentences weren't reworded. If drift persists on the enchantress specifically (most likely, since her reference is a single dynamic-angle pose rather than a neutral front view), see the escalation technique in references/veo-video-prompting.md.
+  The enchantress reference is flat-shaded anime art; both bird references are photorealistic fluffy stylized-3D renders. Per the user, this is deliberate: the birds are from another world, so their visibly different render style is the visual joke. Both the grid prompts and the video prompts keep the enchantress/environment in full flat-shaded anime style and both birds in their own full photorealistic style, never blended.
 
 GENERATION ORDER:
-  1. Generate storyboard_preview_A.txt and storyboard_preview_B.txt first; confirm blocking/comedic timing reads well before spending on video.
-  2. Generate video/shot_01.txt.
-  3. Generate video/shot_02.txt, re-attaching the same three reference images.
+  1. Generate grids/grid_shot_01.txt and grids/grid_shot_02.txt with Nano Banana Pro, uploading enchantress_ref.png / bird_blue_ref.png / bird_purple_ref.png as references for each. Review both grids before moving to video — this is now your real staging check, not a throwaway preview, since these images ARE the generation inputs.
+  2. Upload enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png, and grid_shot_01.png as ingredients in Flow. Paste video/shot_01.txt into the prompt box, pull in the four ingredients, select Omni Flash, 16:9, 10s. Generate.
+  3. Repeat with grid_shot_02.png (plus the same three character ingredients) and video/shot_02.txt.
+  4. Stitch shot_01's output and shot_02's output together in your editor of choice — Omni does not auto-chain separate calls, per the confirmed 10s-per-call ceiling.
 
-LIVE-VERIFICATION CAVEATS:
-  - Aspect ratio defaulted to 16:9 (safer with asset references per current research). If you want 9:16 for social/vertical delivery, test a short throwaway generation first — reference images + portrait mode had reported issues on some Veo 3.1 endpoints at research time.
-  - Confirm current Veo model ID/availability before running.
-  - RISK: true two-style-in-one-frame rendering (flat anime world + photorealistic-3D birds, no blending) is an unusual ask — video models are generally trained to normalize a shot toward one consistent look, and prompt instructions alone may not fully resist that pull, especially as the birds move and interact with her. If the first generation blends the styles instead of keeping them distinct, the fix is usually a stronger explicit statement per beat (not just once in STYLE & AMBIANCE) that each character's render style doesn't change — worth budgeting one throwaway generation to check before committing to the full 20s.
+CONTINUITY BETWEEN CLIP 1 AND CLIP 2:
+  Carried by: (1) identical character ingredients uploaded to both calls, (2) identical identity-descriptor sentences in both grid prompts, (3) grid_shot_02's panel 1 explicitly restated as continuing from grid_shot_01's panel 4 (same portal position, same character states), (4) shot_02.txt's closing line restating the exact state shot_01 ended on.
+
+RISK: dual-style rendering (flat anime + photorealistic-3D in one frame, unblended) is an unusual ask — models generally normalize a shot toward one look, and this hasn't been tested against Omni specifically. Budget one throwaway grid generation to check the styles hold apart before generating both full video calls. If they blend, the fix is usually restating the per-subject style rule inside each grid panel description, not just once at the top of the prompt.
+
+IF A CHARACTER'S IDENTITY DRIFTS ACROSS CALLS:
+  Check first that the same three ingredient images were uploaded to both calls and that the identity-descriptor sentences weren't reworded. If drift persists on the enchantress specifically (her reference is a single dynamic-angle pose, not a neutral front view), see the escalation technique in references/veo-video-prompting.md.
+
+UNVERIFIED / WORTH TESTING FIRST:
+  - Whether Omni Flash has any practical ingredient-count limit above the 4 used here (1 grid + 3 characters) — no cap is stated in Flow's UI, but it isn't confirmed past 3 in the examples this skill was built from.
+  - Whether the caption durations (2/2/3/3 and 3/2/3/2 seconds) are honored precisely or approximately — if timing comes out off, tighten or loosen the caption text rather than the scene descriptions.

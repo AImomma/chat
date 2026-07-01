@@ -1,0 +1,25 @@
+Omni (Google Flow) video prompt — one ~10s call, covering P## range [start]-[end].
+Save as od_prompts/<short_slug>/video/shot_<NN>.txt
+Paste directly into Flow's prompt box with the named ingredients uploaded and pulled in.
+
+---
+
+INGREDIENTS TO UPLOAD (name files exactly as shown — the filename is the @tag):
+  grid_shot_<NN>.png          — the scene grid for this call (required)
+  <character>_ref.png         — one per recurring character/prop in this call
+  ...
+
+---
+
+Use @grid_shot_<NN>.png as the scene grid: generate a video using its panels as video scenes in order, following each panel's caption for action, dialogue, and duration.
+
+[One reference-scoping sentence per character/prop ingredient, matching its fixed identity-descriptor sentence and any style-scoping rule locked during the craft phase, e.g.:]
+@<character>_ref.png is the reference for [subject]'s [design/pose/wardrobe/full appearance — state exactly what it controls]. [Add a style-scope exclusion if this project has a deliberate multi-style rule, e.g. "Do not carry its rendering style onto other subjects" or "Keep this subject's original photorealistic style throughout, unchanged from the reference."]
+
+[Style/tone line not already carried by the grid's own rendering, if needed — lighting key, color/palette emotion, lens/DOF feel, atmosphere, from the Cinematography Layer in references/craft-guide.md.]
+
+AUDIO: [dialogue lines if not already fully captured in grid captions, SFX, ambient description; state explicitly if suppressing music, e.g. "no background music."]
+
+[Only if this call continues directly from a prior stitched call: one sentence restating the exact state the prior call ended on, so Omni doesn't have to guess the starting point.]
+
+[Do not include @image#, @element_name, @C1, or any invented placeholder token — every @tag above must match an ingredient filename you are actually uploading.]

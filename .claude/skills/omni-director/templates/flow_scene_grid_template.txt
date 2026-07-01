@@ -1,0 +1,24 @@
+Nano Banana Pro prompt — one rendered, captioned scene grid, one panel per P## beat in this ~10s call.
+Save as od_prompts/<short_slug>/grids/grid_shot_<NN>.txt
+This IS a real generation input on Flow (not a preview-only sketch) — render it in final style, matching every character/prop reference exactly.
+
+---
+
+Create a [rows]x[cols] grid storyboard image, [aspect ratio, default 16:9] per panel, covering P##-P## of "[scene title]." Each panel is a fully rendered final-style frame — [style description, matching the project's locked visual style / dual-style rule if one exists] — not a sketch. Use [reference images named/scoped per the conventions in references/gemini-image-prompting.md] for consistent character/prop appearance across every panel.
+
+Panel layout, [rows] rows x [cols] columns, read left-to-right top-to-bottom:
+
+Panel 1 (P##): [full scene description for this beat — camera framing, action, character positions, prop/effect state, visible result — same level of detail as a finished shot, not a blocking sketch].
+Panel 2 (P##): [...]
+Panel 3 (P##): [...]
+Panel 4 (P##): [...]
+
+Caption bar under every panel, in [color/typography, e.g. white uppercase with a 1px black outline], reading exactly:
+Panel 1: "[N] sec — [action/dialogue summary for this beat]"
+Panel 2: "[N] sec — [...]"
+Panel 3: "[N] sec — [...]"
+Panel 4: "[N] sec — [...]"
+
+[Sum of panel durations should land at or under ~10s — this grid drives exactly one Omni call.]
+
+Constraints: consistent character/prop appearance and consistent environment across every panel (same location, same lighting logic, same wardrobe) unless the story requires a change; no extra characters, no duplicate/ghost entities, no stray text beyond the caption bars; each panel is one frozen instant with no before/after wording inside a panel.

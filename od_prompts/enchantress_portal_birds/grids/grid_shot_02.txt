@@ -1,0 +1,24 @@
+Nano Banana Pro prompt — rendered, captioned scene grid, panels P05-P08 of "Not Again."
+Save as od_prompts/enchantress_portal_birds/grids/grid_shot_02.txt
+This is a real generation input for Flow — upload the resulting image as grid_shot_02.png and reference it with @grid_shot_02.png in video/shot_02.txt.
+
+---
+
+Create a 2x2 grid storyboard image, 16:9 per panel, covering P05-P08 of "Not Again" — resealing the portal, a sulk, and a cliffhanger voice. Each panel is a fully rendered final frame, not a sketch. Render the enchantress and her environment in flat-shaded 2D anime style with clean line art, matching her attached reference exactly. Render both birds in their own photorealistic fluffy stylized-3D look, matching their attached references exactly. Keep the two styles visually distinct in every panel, continuing exactly from grid_shot_01. Use the attached enchantress reference for her design, pose, and wardrobe; use the attached blue and purple bird references for each bird's full appearance and style.
+
+Panel layout, 2 rows x 2 columns, read left-to-right top-to-bottom:
+
+Panel 1 (P05): Low-angle shot, the enchantress plants her feet wide and raises the staff overhead with both hands, straining with visible effort, the two birds now upright and watching curiously just behind her, the portal still open in front of her.
+Panel 2 (P06): Close-up on the portal alone, now visibly shrinking, sputtering with a few last flickers of light before collapsing to darkness.
+Panel 3 (P07): Medium shot, the enchantress sits on the ground, shoulders slumped, staff laid across her lap, sulking; the blue bird presses close against her side, the purple bird stands a short distance off, watching her, unmoved.
+Panel 4 (P08): Static wide shot, the same seated group, all facing forward, with extra empty negative space behind the enchantress implying an unseen presence just off-panel.
+
+Caption bar under every panel, white uppercase lettering with a 1px black outline, reading exactly:
+Panel 1: "3 SEC — SHE STRAINS TO RESEAL IT. \"IT'S ALMOST THERE—\""
+Panel 2: "2 SEC — THE PORTAL FIZZLES AND DIES"
+Panel 3: "3 SEC — SHE SLUMPS, SULKING"
+Panel 4: "2 SEC — SILENCE... THEN: \"UM... HELLO?\""
+
+Total caption duration: 10 seconds, matching this call's budget.
+
+Constraints: the same outdoor clearing and consistent lighting as grid_shot_01, continuing the same relative portal position from grid_shot_01 panel 4 into this panel 1; no extra characters; no duplicate/ghost entities; no stray text beyond the four caption bars; each panel is one frozen instant with no before/after wording inside a panel.

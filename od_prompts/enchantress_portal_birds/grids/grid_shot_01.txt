@@ -1,0 +1,24 @@
+Nano Banana Pro prompt — rendered, captioned scene grid, panels P01-P04 of "Not Again."
+Save as od_prompts/enchantress_portal_birds/grids/grid_shot_01.txt
+This is a real generation input for Flow — upload the resulting image as grid_shot_01.png and reference it with @grid_shot_01.png in video/shot_01.txt.
+
+---
+
+Create a 2x2 grid storyboard image, 16:9 per panel, covering P01-P04 of "Not Again" — a calm spell that spikes out of control and tears open a portal. Each panel is a fully rendered final frame, not a sketch. Render the enchantress and her environment in flat-shaded 2D anime style with clean line art, matching her attached reference exactly. Render both birds in their own photorealistic fluffy stylized-3D look, matching their attached references exactly. Keep the two styles visually distinct in every panel — the birds should read as visitors from elsewhere, not restyled to match her world. Use the attached enchantress reference for her design, pose, and wardrobe; use the attached blue and purple bird references for each bird's full appearance and style.
+
+Panel layout, 2 rows x 2 columns, read left-to-right top-to-bottom:
+
+Panel 1 (P01): Medium shot, the enchantress stands calm and controlled in an open outdoor clearing, staff raised, a small swirl of pale blue-white magical light gathering at the crystal tip, confident focused expression.
+Panel 2 (P02): Low-angle shot, the swirl has intensified and destabilized, sparks spitting off the staff, her eyes wide with alarm as she loses control, hood buffeted as if by wind.
+Panel 3 (P03): Wide shot, a bright vertical portal has ripped open in the air in front of her with a radiating burst of light and energy rings; she stumbles back, one arm shielding her face.
+Panel 4 (P04): Medium-close shot, two small fluffy birds — one cobalt-blue, one violet-purple — lie tumbled in a dazed heap at her feet; she stands frozen, staring down at them in stunned disbelief.
+
+Caption bar under every panel, white uppercase lettering with a 1px black outline, reading exactly:
+Panel 1: "2 SEC — SHE PRACTICES A CALM SPELL"
+Panel 2: "2 SEC — THE SPELL SPIKES OUT OF CONTROL"
+Panel 3: "3 SEC — A PORTAL TEARS OPEN"
+Panel 4: "3 SEC — TWO BIRDS TUMBLE OUT. \"...NOT AGAIN.\""
+
+Total caption duration: 10 seconds, matching this call's budget.
+
+Constraints: the same outdoor clearing and consistent lighting across all four panels; no extra characters; no duplicate/ghost entities; no stray text beyond the four caption bars; each panel is one frozen instant with no before/after wording inside a panel.
