@@ -3,8 +3,9 @@ Save as od_prompts/<short_slug>/video/shot_<NN>.txt
 
 ---
 
-ATTACH AS ASSET: [ref_c1_front.png, ref_c1_action.png]   (character/subject identity — up to 3 per call)
+ATTACH AS ASSET: [ref_c1_front.png, ref_c1_action.png]   (shared pool of 3 slots total for this call, across every subject — not 3 per character. Allocate by priority: lead/POV character first, plot-critical prop/vehicle second, secondary character third. Anything that misses a slot gets prose-only consistency via its identity-descriptor sentence; note it in 00_notes.txt.)
 ATTACH AS STYLE: [ref_style.png or "none — style carried in prose"]   (up to 1 per call; verify Veo 3.1 support before relying on this — see references/veo-video-prompting.md)
+[Never attach a location plate here — there is no location reference type. Carry location consistency in the CONTEXT line below instead.]
 
 [If this call continues from a prior clip via extension, note it here: "Extends shot_<NN-1>.txt; reuse the same ASSET/STYLE attachments; Veo seeds automatically from the prior clip's final ~1s."]
 

@@ -13,6 +13,12 @@ ATTACHMENT MAP (which plate goes where, per shot):
   shot_02.txt: ASSET = [...], STYLE = [...]
   ...
 
+ENTITIES WITHOUT AN ASSET SLOT (prose-only consistency — watch these first if drift appears):
+  [entity]: [why it missed a slot, e.g. "shot has 4 recurring entities, only 3 asset slots — dropped per priority rule"]
+
+LOCATION PLATES (never attached to Veo — no location reference type exists):
+  ref_location.txt / [image]: carried via the CONTEXT line in every shot, not via ATTACH. [Omit this block if the project has no location plate.]
+
 GENERATION ORDER:
   1. Generate every refs/ref_*.txt image first with Nano Banana Pro. If any plate is a refinement of another (bootstrapped chain), generate the primary plate first and feed it back in as the input reference for the secondary plate — don't generate all plates independently from text alone.
   2. Generate storyboard_preview.txt with Nano Banana Pro and review blocking/camera before spending on video. Revise the P## spine here if staging is wrong — cheaper to fix now than after a Veo call.
