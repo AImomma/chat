@@ -3,7 +3,7 @@ Aspect ratio: 16:9.
 
 ---
 
-ATTACH AS ASSET: [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png] — same three plates as shot_01.txt, same scoping rules (enchantress reference for design/pose/wardrobe only, not rendering style; both bird references for full appearance).
+ATTACH AS ASSET: [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png] — same three plates as shot_01.txt, same dual-style scoping (each reference controls full appearance including render style for its own subject only; the enchantress/environment stay flat-shaded anime, the birds stay photorealistic fluffy-3D — deliberate, not a mismatch to fix).
 ATTACH AS STYLE: none.
 
 This is clip 2 of 2 (independent call, not an extend from shot_01). Opens exactly where shot_01.txt ended: portal still open, both birds just landed and upright, enchantress startled and staring at them.
@@ -14,7 +14,7 @@ CINEMATOGRAPHY: Low-angle shot for the resealing effort, cutting to a close-up o
 SUBJECT: a young hooded enchantress with a dark complexion and sharp gray eyes, wearing deep indigo-blue hooded robes with pale blue trim and a tan belt sash, wielding a tall blue staff topped with a faceted crystal; a small round fluffy bird with vivid cobalt-blue plumage, a tall swept-back crest, a fluffy white face and belly, wide sparkling blue eyes, and a cheerful expression; a small round fluffy bird with deep violet-blue plumage, a tufted crest, and oversized pale eyes with a low-lidded skeptical expression.
 ACTION: the enchantress strains to reseal the portal as the two birds watch nearby; the portal shrinks and fizzles out; she slumps to the ground, sulking, birds close beside her; after a beat of silence, an unseen third voice speaks from off-frame.
 CONTEXT: the same open outdoor clearing as shot_01, soft grass and plain sky backdrop, portal positioned in the same relative spot it held at the end of shot_01.
-STYLE & AMBIANCE: soft stylized-3D fluffy-character render style (matching both bird references), bright naturalistic daylight as the motivated source, clean warm color palette with the cool blue-white magic accent fading out as the portal dies, normal lens, clear air, comedic timing pacing with a held, quiet pause before the final line.
+STYLE & AMBIANCE: the enchantress and the entire environment render in flat-shaded 2D anime style with clean line art, matching her reference exactly; the two birds render in their own photorealistic fluffy stylized-3D look, matching their references exactly, unchanged from shot_01 — the two styles continue sitting side by side without blending. Bright naturalistic daylight as the motivated source, clean warm color palette with the cool blue-white magic accent fading out as the portal dies, normal lens, clear air, comedic timing pacing with a held, quiet pause before the final line.
 
 DIALOGUE: The enchantress grunts, "It's almost there—" while straining to reseal the portal. Later, an unseen voice off-frame says, "Um... hello?"
 SFX: a straining magical whine during the reseal effort, a sputtering fizzle as the portal collapses, silence during the sulk, a soft rustle just before the off-frame voice.

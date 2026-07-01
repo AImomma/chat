@@ -3,7 +3,7 @@ Aspect ratio: 16:9.
 
 ---
 
-ATTACH AS ASSET: [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png] — all 3 slots used, one per recurring character. Use the enchantress reference for her design, pose reference, and wardrobe ONLY — do not carry over its flat-shaded anime line-art rendering style. Use both bird references for full appearance including rendering style.
+ATTACH AS ASSET: [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png] — all 3 slots used, one per recurring character. Each reference controls full appearance INCLUDING render style for its own subject only — this is a deliberate dual-style shot, not a mismatch to fix. Do not let the enchantress reference's flat-shaded anime style bleed onto the birds, and do not let the birds' photorealistic fluffy-3D style bleed onto the enchantress or her environment.
 ATTACH AS STYLE: none.
 
 This is clip 1 of 2 (independent call, not an extend). Clip 2 (shot_02.txt) picks up immediately after this clip's final beat.
@@ -12,9 +12,9 @@ This is clip 1 of 2 (independent call, not an extend). Clip 2 (shot_02.txt) pick
 
 CINEMATOGRAPHY: Medium shot opening, slow push toward a low angle as tension builds, cutting to a wide shot for the portal burst, settling to a medium-close shot for the landing.
 SUBJECT: a young hooded enchantress with a dark complexion and sharp gray eyes, wearing deep indigo-blue hooded robes with pale blue trim and a tan belt sash, wielding a tall blue staff topped with a faceted crystal; a small round fluffy bird with vivid cobalt-blue plumage, a tall swept-back crest, a fluffy white face and belly, wide sparkling blue eyes, and a cheerful expression; a small round fluffy bird with deep violet-blue plumage, a tufted crest, and oversized pale eyes with a low-lidded skeptical expression.
-ACTION: the enchantress practices a calm spell that spikes out of control, tearing open a bright portal in front of her; the two birds tumble out of it and land in a heap at her feet, dazed; she stares down at them, stunned.
+ACTION: the enchantress practices a calm spell that spikes out of control, tearing open a bright portal in front of her; the two birds tumble out of it and land in a heap at her feet, dazed, visibly foreign to this world; she stares down at them, stunned — as much by how out-of-place they look as by their sudden arrival.
 CONTEXT: an open outdoor clearing with soft grass and a plain sky backdrop, uncluttered, so nothing competes with the spell/portal effect for visual attention.
-STYLE & AMBIANCE: soft stylized-3D fluffy-character render style (matching both bird references), bright naturalistic daylight as the motivated source, clean warm color palette with one cool blue-white accent for the magic and portal energy, normal lens, clear air, comedic timing pacing — quick beats, a held reaction pause before the line.
+STYLE & AMBIANCE: the enchantress and the entire environment render in flat-shaded 2D anime style with clean line art, matching her reference exactly; the two birds render in their own photorealistic fluffy stylized-3D look, matching their references exactly — the two styles sit side by side in frame without blending, underscoring that the birds don't belong to this world. Bright naturalistic daylight as the motivated source, clean warm color palette with one cool blue-white accent for the magic and portal energy, normal lens, clear air, comedic timing pacing — quick beats, a held reaction pause before the line.
 
 DIALOGUE: The enchantress says, "...Not again." — delivered flat and exasperated, right as she registers the birds.
 SFX: a rising magical hum through the first three beats, a sharp crackling burst as the portal opens, a soft double thud as the birds land.

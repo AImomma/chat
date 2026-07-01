@@ -1,4 +1,4 @@
-Veo 3.1 prompt — one ~8-second call (10s if targeting Omni specifically — confirm which surface before assuming), covering P## range [start]-[end].
+Veo 3.1 / Omni prompt — one ~10-second call by default (Omni; use 8s standard Veo 3.1 or shorter only if the user asked for that in this request), covering P## range [start]-[end].
 Save as od_prompts/<short_slug>/video/shot_<NN>.txt
 
 ---

@@ -20,8 +20,8 @@ FIXED IDENTITY DESCRIPTORS (reuse verbatim in every prompt mentioning that chara
   Blue bird: "a small round fluffy bird with vivid cobalt-blue plumage, a tall swept-back crest, a fluffy white face and belly, wide sparkling blue eyes, and a cheerful expression"
   Purple bird: "a small round fluffy bird with deep violet-blue plumage, a tufted crest, oversized pale eyes with a low-lidded skeptical expression"
 
-STYLE UNIFICATION DECISION (flag if you want this reversed):
-  The enchantress reference is flat-shaded anime art; both bird references are photorealistic fluffy stylized-3D renders. These cannot coexist as-is in one shot. Every prompt below renders the whole scene in the birds' fluffy stylized-3D look and scopes the enchantress reference to design/pose/wardrobe ONLY — explicitly excluding her reference's flat-shading/line-art rendering style. If you'd rather go full flat-anime instead, swap which reference is scoped to "style" vs "design only" in every prompt and regenerate.
+DUAL-STYLE DECISION (intentional, not a mismatch to fix):
+  The enchantress reference is flat-shaded anime art; both bird references are photorealistic fluffy stylized-3D renders. Per the user, this is deliberate: the birds are from another world, so their visibly different render style is the visual joke, not an error to unify away. Every prompt below keeps the enchantress and her environment in full flat-shaded anime style (matching her reference exactly) while both birds keep their full original photorealistic fluffy-3D style (matching their references exactly) — two coexisting visual languages in the same frame, on purpose. Do not let either reference's style bleed onto the other; each reference now controls full appearance including render style for its own subject only.
 
 ATTACHMENT MAP:
   shot_01.txt: ASSET = [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png], STYLE = none (style intent carried in prose, see style-unification note above)
@@ -30,8 +30,7 @@ ATTACHMENT MAP:
 ENTITIES WITHOUT AN ASSET SLOT: none — all 3 recurring characters fit within the 3-slot cap.
 LOCATION PLATES: none generated. Location (open clearing/courtyard) is a simple, low-continuity-risk setting carried by prose in each shot's CONTEXT line only.
 
-DURATION OVERRIDE (project-specific, not a change to the skill's documented default):
-  You noted your Veo surface caps single generations at 10s, not the 8s this skill defaults to from Google's published spec. Built this project as 2x10s independent clips (20s total) instead of the skill's default 8s-clip/extend-chain pattern. If your tool consistently caps at 10s, consider asking to update the skill's DEFAULT so future projects don't need this override called out manually.
+DURATION: Omni, 2x10s independent clips (20s total) — this now matches the skill's default (Omni/10s unless a shorter clip is requested for a specific project).
 
 CONTINUITY BETWEEN CLIP 1 AND CLIP 2:
   These are independent calls, not a chained extend — there's a natural comedic beat-change ("Not again" pause) between them. Continuity is carried by: (1) identical ASSET attachments in both clips, (2) identical identity-descriptor sentences, (3) shot_02's opening CONTEXT line explicitly restating the state shot_01 ended on (portal still open, birds just landed, enchantress startled) so Veo doesn't have to guess the starting state.
@@ -47,3 +46,4 @@ GENERATION ORDER:
 LIVE-VERIFICATION CAVEATS:
   - Aspect ratio defaulted to 16:9 (safer with asset references per current research). If you want 9:16 for social/vertical delivery, test a short throwaway generation first — reference images + portrait mode had reported issues on some Veo 3.1 endpoints at research time.
   - Confirm current Veo model ID/availability before running.
+  - RISK: true two-style-in-one-frame rendering (flat anime world + photorealistic-3D birds, no blending) is an unusual ask — video models are generally trained to normalize a shot toward one consistent look, and prompt instructions alone may not fully resist that pull, especially as the birds move and interact with her. If the first generation blends the styles instead of keeping them distinct, the fix is usually a stronger explicit statement per beat (not just once in STYLE & AMBIANCE) that each character's render style doesn't change — worth budgeting one throwaway generation to check before committing to the full 20s.
