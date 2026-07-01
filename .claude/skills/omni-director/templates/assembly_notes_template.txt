@@ -6,7 +6,7 @@ SCENE: [one-line premise]
 FILES:
   storyboard_preview.txt   -> Nano Banana Pro. Human preview only. Do NOT attach to Veo.
   refs/ref_*.txt           -> Nano Banana Pro, one call per file. Save each output image with the matching name (e.g. ref_c1_front.png) before moving to video.
-  video/shot_01.txt ...    -> Veo 3.1, one call per file, ~8s each.
+  video/shot_01.txt ...    -> Veo 3.1, one call per file, ~8s each (10s if targeting Omni specifically).
 
 ATTACHMENT MAP (which plate goes where, per shot):
   shot_01.txt: ASSET = [ref_c1_front.png, ref_c1_action.png], STYLE = [ref_style.png / none]
