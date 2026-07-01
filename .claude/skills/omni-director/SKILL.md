@@ -25,7 +25,7 @@ Kling and Seedance resolve an arbitrary symbolic token (`@image1`, `@element_nam
 
 ## Reference Architecture
 
-**Flow ingredients — `@filename` binding (primary).** Every uploaded image/video/audio is an ingredient, referenced in-prompt as `@<exact filename>`. Name files descriptively before upload; the filename *is* the token. A scene grid counts as one ingredient like any other. No confirmed hard cap on ingredient count per call (unlike the raw API's 3-asset limit) — Flow's own examples show up to 3 used together; treat anything beyond ~4 in one call as untested rather than assumed safe or unsafe. See `references/flow-omni-ingredients.md` for the full mechanism, grid-as-scene-input pattern, caption conventions, and multi-modal (video/audio) ingredient examples.
+**Flow ingredients — `@filename` binding (primary).** Every uploaded image/video/audio is an ingredient, added via "Add Ingredient" (choosing category Character/Object/Style) and then referenced in-prompt as `@<exact filename>`. Name files descriptively before upload; the filename *is* the token. Tag people/creatures as **Character** specifically (not a bare upload) — it likely gets the same dedicated identity-preservation handling as the raw API's `asset` type. A scene grid counts as one ingredient like any other. **Google's own guidance caps Ingredients-to-Video at 3 ingredients per call** — design for 3, not more; if a call needs a grid plus more than 2 character/prop ingredients, drop the least drift-prone one and lean on the grid's own rendering + prose for it. See `references/flow-omni-ingredients.md`.
 
 **Nano Banana Pro — prose binding (both surfaces, for still generation).** When a still-image prompt includes multiple input images, name each one's exact contribution *before* describing the target scene — ordinal ("the first image," "the second image") or lettered role labels ("Image A," "Image B"), never a symbol. Scope exclusions ("do not carry Image A's clothing into Image B's role") are permitted and necessary for preventing bleed; they are not the same as the scene-negation Google discourages (see `references/gemini-image-prompting.md`). This applies to the raw API always, and also describes *within* a Flow prompt when you're not using `@filename` tags for some reason — but when targeting Flow, prefer `@filename` since it's the surface's native mechanism.
 
@@ -98,7 +98,7 @@ Before finalizing an omni-director request, verify:
 - The shared `P##` spine is identical in coverage across every grid/storyboard and every video call — same order, same visible events — only the wording/format differs per surface's conventions.
 - Each grid panel/storyboard panel is one frozen instant; each video beat has one continuous action with a visible result.
 - Count-sensitive entities carry an explicit total and one-instance-only language everywhere they appear.
-- `00_notes.txt` names the target surface explicitly and flags anything unverified/live-risk (ingredient count beyond ~4, style-reference support on raw Veo 3.1, current model roster) rather than asserting it works.
+- `00_notes.txt` names the target surface explicitly, stays within the 3-ingredient-per-call guidance (with an explicit fallback priority if a call needs more), and flags anything unverified/live-risk (style-reference support on raw Veo 3.1, current model roster) rather than asserting it works.
 - Final response returns file paths and a short ingredient/attachment summary, not full prompt text, unless asked.
 
 ## Reference Files

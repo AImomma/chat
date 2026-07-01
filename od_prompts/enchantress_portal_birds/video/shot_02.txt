@@ -3,11 +3,11 @@ Paste into Flow's prompt box with the ingredients below uploaded and pulled in. 
 
 ---
 
-INGREDIENTS TO UPLOAD (name files exactly as shown):
+INGREDIENTS TO UPLOAD (name files exactly as shown — add each as ingredient type Character, then pull all 3 into the prompt box):
   grid_shot_02.png     — the scene grid for this call (generate from grids/grid_shot_02.txt first)
   enchantress_ref.png  — same enchantress reference used in shot_01
   bird_blue_ref.png    — same blue/white bird reference used in shot_01
-  bird_purple_ref.png  — same purple/violet bird reference used in shot_01
+  [bird_purple_ref.png is NOT uploaded to this call either, for the same 3-ingredient-cap reason as shot_01 — see 00_notes.txt.]
 
 ---
 
@@ -15,7 +15,7 @@ Use @grid_shot_02.png as the scene grid: generate a video using its four panels 
 
 @enchantress_ref.png is the reference for the enchantress's design, pose, and wardrobe. Keep her and the environment rendered in flat-shaded 2D anime style throughout, matching this reference exactly, continuing the same look as shot_01 — do not shift her toward the birds' rendering style.
 
-@bird_blue_ref.png and @bird_purple_ref.png are the full appearance and style references for the two birds. Keep both birds in their own photorealistic fluffy stylized-3D look throughout, unchanged from these references and from shot_01 — do not shift them toward the enchantress's anime style. The two styles should sit side by side without blending.
+@bird_blue_ref.png is the full appearance and style reference for the cobalt-blue bird. Keep him in his own photorealistic fluffy stylized-3D look throughout, unchanged from this reference and from shot_01 — do not shift him toward the enchantress's anime style. The violet-purple bird (a small round fluffy bird with deep violet-blue plumage, a tufted crest, oversized pale eyes with a low-lidded skeptical expression) should match his appearance exactly as rendered in @grid_shot_02.png and in shot_01, in the same photorealistic fluffy stylized-3D style as the blue bird. The two styles should sit side by side without blending.
 
 AUDIO: a straining magical whine during the reseal effort, a sputtering fizzle as the portal collapses, silence during the sulk, a soft rustle just before the final off-frame voice. Quiet outdoor clearing ambience, near-silence in the final scene. No background music until a single soft comedic sting under the final line.
 

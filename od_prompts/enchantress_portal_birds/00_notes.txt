@@ -9,12 +9,15 @@ FILES:
   video/shot_01.txt       -> Omni Flash, 10s, references @grid_shot_01.png + character ingredients.
   video/shot_02.txt       -> Omni Flash, 10s, references @grid_shot_02.png + character ingredients.
 
-INGREDIENT FILES (name exactly as shown — the filename IS the @tag Flow resolves):
-  enchantress_ref.png   -> your supplied hooded enchantress reference (used as-is, no plate generation needed)
-  bird_blue_ref.png     -> your supplied blue/white fluffy bird reference (used as-is)
-  bird_purple_ref.png   -> your supplied violet/purple fluffy bird reference (used as-is)
+INGREDIENT FILES (name exactly as shown — the filename IS the @tag Flow resolves; add each as ingredient type Character, not a bare/uncategorized upload):
+  enchantress_ref.png   -> your supplied hooded enchantress reference (used as-is, no plate generation needed). Used in BOTH video calls.
+  bird_blue_ref.png     -> your supplied blue/white fluffy bird reference (used as-is). Used in BOTH video calls.
+  bird_purple_ref.png   -> your supplied violet/purple fluffy bird reference (used as-is). Used ONLY when generating the two grids (grid_shot_01.txt and grid_shot_02.txt) — NOT uploaded to either video call. See INGREDIENT CAP below.
   grid_shot_01.png       -> generated from grids/grid_shot_01.txt
   grid_shot_02.png       -> generated from grids/grid_shot_02.txt
+
+INGREDIENT CAP (this changed the video prompts — read before generating):
+  Google's own guidance caps Ingredients-to-Video at 3 ingredients per call. Each video call needs 3: the grid + enchantress_ref.png + bird_blue_ref.png. bird_purple_ref.png does NOT get a 4th slot in either video call — his appearance instead comes from the grid image itself (which was generated using his reference, so it's already carried into every panel's pixels) plus his fixed identity-descriptor sentence repeated in prose. If he drifts more than the blue bird across the two clips, that's the first place to look — see IF A CHARACTER'S IDENTITY DRIFTS below. If you want to test whether Flow actually accepts and uses a 4th ingredient despite the documented cap, try adding bird_purple_ref.png as a 4th on one throwaway generation before committing to the 2-clip full run.
 
 FIXED IDENTITY DESCRIPTORS (reuse verbatim in every grid/video prompt mentioning that character):
   Enchantress: "a young hooded enchantress with a dark complexion and sharp gray eyes, wearing deep indigo-blue hooded robes with pale blue trim and a tan belt sash, wielding a tall blue staff topped with a faceted crystal"
@@ -25,19 +28,19 @@ DUAL-STYLE DECISION (intentional, not a mismatch to fix):
   The enchantress reference is flat-shaded anime art; both bird references are photorealistic fluffy stylized-3D renders. Per the user, this is deliberate: the birds are from another world, so their visibly different render style is the visual joke. Both the grid prompts and the video prompts keep the enchantress/environment in full flat-shaded anime style and both birds in their own full photorealistic style, never blended.
 
 GENERATION ORDER:
-  1. Generate grids/grid_shot_01.txt and grids/grid_shot_02.txt with Nano Banana Pro, uploading enchantress_ref.png / bird_blue_ref.png / bird_purple_ref.png as references for each. Review both grids before moving to video — this is now your real staging check, not a throwaway preview, since these images ARE the generation inputs.
-  2. Upload enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png, and grid_shot_01.png as ingredients in Flow. Paste video/shot_01.txt into the prompt box, pull in the four ingredients, select Omni Flash, 16:9, 10s. Generate.
-  3. Repeat with grid_shot_02.png (plus the same three character ingredients) and video/shot_02.txt.
+  1. Generate grids/grid_shot_01.txt and grids/grid_shot_02.txt with Nano Banana Pro, uploading enchantress_ref.png / bird_blue_ref.png / bird_purple_ref.png as references for each (all 3 are fine here — this is a still-image generation, not Ingredients-to-Video, so the 3-ingredient video cap doesn't apply). Review both grids before moving to video — this is now your real staging check, not a throwaway preview, since these images ARE the generation inputs.
+  2. In Flow, upload enchantress_ref.png, bird_blue_ref.png, and grid_shot_01.png as ingredients (type Character for the first two). Paste video/shot_01.txt into the prompt box, pull in the 3 ingredients, select Omni Flash, 16:9, 10s. Generate.
+  3. Repeat with grid_shot_02.png plus the same two character ingredients (enchantress_ref.png, bird_blue_ref.png) and video/shot_02.txt.
   4. Stitch shot_01's output and shot_02's output together in your editor of choice — Omni does not auto-chain separate calls, per the confirmed 10s-per-call ceiling.
 
 CONTINUITY BETWEEN CLIP 1 AND CLIP 2:
-  Carried by: (1) identical character ingredients uploaded to both calls, (2) identical identity-descriptor sentences in both grid prompts, (3) grid_shot_02's panel 1 explicitly restated as continuing from grid_shot_01's panel 4 (same portal position, same character states), (4) shot_02.txt's closing line restating the exact state shot_01 ended on.
+  Carried by: (1) identical enchantress_ref.png and bird_blue_ref.png ingredients uploaded to both video calls, (2) identical identity-descriptor sentences (all three characters, including purple bird, even though he's not a dedicated ingredient) in both grid prompts and both video prompts, (3) grid_shot_02's panel 1 explicitly restated as continuing from grid_shot_01's panel 4 (same portal position, same character states), (4) shot_02.txt's closing line restating the exact state shot_01 ended on.
 
 RISK: dual-style rendering (flat anime + photorealistic-3D in one frame, unblended) is an unusual ask — models generally normalize a shot toward one look, and this hasn't been tested against Omni specifically. Budget one throwaway grid generation to check the styles hold apart before generating both full video calls. If they blend, the fix is usually restating the per-subject style rule inside each grid panel description, not just once at the top of the prompt.
 
 IF A CHARACTER'S IDENTITY DRIFTS ACROSS CALLS:
-  Check first that the same three ingredient images were uploaded to both calls and that the identity-descriptor sentences weren't reworded. If drift persists on the enchantress specifically (her reference is a single dynamic-angle pose, not a neutral front view), see the escalation technique in references/veo-video-prompting.md.
+  Check first that enchantress_ref.png and bird_blue_ref.png were uploaded to both calls and that the identity-descriptor sentences weren't reworded. The purple bird is the most likely to drift, specifically because he has no dedicated ingredient in the video calls (only in the two grid generations) — if he's the one that drifts, that confirms the cause, and the fix is either testing a 4th ingredient slot (see INGREDIENT CAP above) or accepting minor drift on a secondary character. If the enchantress drifts despite having a dedicated ingredient, note her reference is a single dynamic-angle pose, not a neutral front view — see the escalation technique in references/veo-video-prompting.md.
 
 UNVERIFIED / WORTH TESTING FIRST:
-  - Whether Omni Flash has any practical ingredient-count limit above the 4 used here (1 grid + 3 characters) — no cap is stated in Flow's UI, but it isn't confirmed past 3 in the examples this skill was built from.
+  - Whether Flow's 3-ingredient guidance is a hard technical limit or just documented UI guidance that a 4th ingredient might still partially work around.
   - Whether the caption durations (2/2/3/3 and 3/2/3/2 seconds) are honored precisely or approximately — if timing comes out off, tighten or loosen the caption text rather than the scene descriptions.
