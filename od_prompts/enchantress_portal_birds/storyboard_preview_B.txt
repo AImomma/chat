@@ -1,0 +1,26 @@
+Create a 16:9 comedic-fantasy storyboard preview sheet with 4 panels covering P05-P08 of "Not Again" — resealing the portal, sulking, and a cliffhanger voice.
+
+[HEADER]
+"Not Again"
+"She almost has it closed. Almost."
+
+[BOARD STRUCTURE]
+AUTO layout, 4 panels. Compact panel headers: `P## / shot tag / beat name`.
+
+[VISUAL STYLE]
+Panel interiors are silent, sparse, open-outline blocking thumbnails: outer body-mass and limb contours only, thin uniform linework, broad negative space, no internal anatomy, no face detail, no clothing/material detail, no color, no shading beyond flat outline. These panels validate camera angle, shot scale, framing, pose, screen direction, and spatial layout only — no final identity, style, or color information belongs here. That lives in the reference images and the video prompts.
+
+[CONTINUITY]
+This board picks up exactly where storyboard_preview_A.txt (P04) ended: the same standing figure and the same two small bird silhouettes, same relative screen positions, portal still open in P05 only. Each panel is one frozen instant — no before/after wording inside a panel.
+
+[TEXT RULES]
+Visible text: only the two quoted header lines and the compact panel headers. No other labels, arrows, icons, or annotations inside panels.
+
+[CONSTRAINTS]
+No color, no finished illustration detail, no duplicate/ghost entities, no visible internal IDs, no logos or watermarks beyond the sheet's own header design.
+
+[BEATS]
+P05 / low straining push / reseal effort: Low-angle shot, the standing figure plants both feet wide, staff raised overhead with both hands, body arched with visible strain, the two small round silhouettes now upright and watching from just behind her on either side, the oval portal shape still open in front of her.
+P06 / close compression / fizzle: Close-up on the oval shape alone, now visibly smaller, with a few short jagged marks at its shrinking edge suggesting collapse.
+P07 / eye-level slump / deflation: Medium shot, the figure now seated on the ground, shoulders dropped, staff laid flat across her lap, one small bird silhouette pressed close against her side, the other standing a short distance off, facing her.
+P08 / static wide / cliffhanger silence: Static wide shot, the same seated figure and two bird silhouettes, all facing forward, composition otherwise identical to P07 but with more empty negative space behind the figure to leave room for an unseen presence implied just off-panel.

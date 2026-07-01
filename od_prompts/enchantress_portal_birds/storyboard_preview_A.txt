@@ -1,0 +1,26 @@
+Create a 16:9 comedic-fantasy storyboard preview sheet with 4 panels covering P01-P04 of "Not Again" — a spell overload that rips open a portal.
+
+[HEADER]
+"Not Again"
+"A calm spell spikes out of control and tears the sky open."
+
+[BOARD STRUCTURE]
+AUTO layout, 4 panels. Compact panel headers: `P## / shot tag / beat name`.
+
+[VISUAL STYLE]
+Panel interiors are silent, sparse, open-outline blocking thumbnails: outer body-mass and limb contours only, thin uniform linework, broad negative space, no internal anatomy, no face detail, no clothing/material detail, no color, no shading beyond flat outline. These panels validate camera angle, shot scale, framing, pose, screen direction, and spatial layout only — no final identity, style, or color information belongs here. That lives in the reference images and the video prompts.
+
+[CONTINUITY]
+One recurring silhouette (the enchantress) stays center-to-slightly-off-center across all 4 panels as the spatial anchor. The portal, once it appears in P03, occupies a consistent position relative to her across P03-P04. Two small bird silhouettes appear only from P04 onward. Each panel is one frozen instant — no before/after wording inside a panel.
+
+[TEXT RULES]
+Visible text: only the two quoted header lines and the compact panel headers. No other labels, arrows, icons, or annotations inside panels.
+
+[CONSTRAINTS]
+No color, no finished illustration detail, no duplicate/ghost entities, no visible internal IDs, no logos or watermarks beyond the sheet's own header design.
+
+[BEATS]
+P01 / eye-level clean / calm control: Medium shot, one standing figure holding a tall staff upright, a small simple swirl shape gathered at the staff's tip, calm neutral stance, centered in frame.
+P02 / low push pressure / power spike: Low-angle push-in on the same figure, staff still raised but posture now tense, small jagged burst marks radiating from the staff tip, head tilted back slightly as if startled by the swirl's growth.
+P03 / wide flash reveal / portal burst: Wide shot, a tall vertical oval shape open in the air in front of the figure, the figure leaning back with one arm raised across the face, simple radiating burst lines around the oval's edge.
+P04 / eye-level reaction / feathered arrival: Medium-close shot, two small round silhouettes in a heap on the ground near the figure's feet, the figure frozen in a stooped, staring pose looking down at them, staff held loosely at her side.

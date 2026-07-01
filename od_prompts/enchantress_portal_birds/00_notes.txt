@@ -1,0 +1,49 @@
+SCENE: "Not Again" — an enchantress's spell overloads, tears open a portal, and two fluffy birds tumble through. She reseals it, sulks, then a new voice says "Um... hello?" (sequel hook.)
+TITLE: "Not Again"
+TOTAL RUNTIME: 20s across two independent Veo clips (10s each — see DURATION OVERRIDE below).
+
+FILES:
+  storyboard_preview_A.txt  -> Nano Banana Pro. Panels P01-P04 (covers video/shot_01.txt). Human preview only.
+  storyboard_preview_B.txt  -> Nano Banana Pro. Panels P05-P08 (covers video/shot_02.txt). Human preview only.
+  video/shot_01.txt         -> Veo, ~10s, P01-P04.
+  video/shot_02.txt         -> Veo, ~10s, P05-P08.
+
+REFERENCE IMAGES (used directly as ASSET plates — no generation needed):
+  Save your three supplied images as:
+    enchantress_ref.png   -> the hooded enchantress with staff
+    bird_blue_ref.png     -> the blue/white fluffy bird, tall crest, cheerful expression
+    bird_purple_ref.png   -> the violet/purple fluffy bird, low-lidded skeptical expression
+  All three already qualify as clean, single-subject, plain-background plates per the skill's reference-plate rules — no ref/ generation prompts were written. 3 characters x 1 image each = exactly fills Veo's 3-asset-slot cap; nobody had to be dropped.
+
+FIXED IDENTITY DESCRIPTORS (reuse verbatim in every prompt mentioning that character):
+  Enchantress: "a young hooded enchantress with a dark complexion and sharp gray eyes, wearing deep indigo-blue hooded robes with pale blue trim and a tan belt sash, wielding a tall blue staff topped with a faceted crystal"
+  Blue bird: "a small round fluffy bird with vivid cobalt-blue plumage, a tall swept-back crest, a fluffy white face and belly, wide sparkling blue eyes, and a cheerful expression"
+  Purple bird: "a small round fluffy bird with deep violet-blue plumage, a tufted crest, oversized pale eyes with a low-lidded skeptical expression"
+
+STYLE UNIFICATION DECISION (flag if you want this reversed):
+  The enchantress reference is flat-shaded anime art; both bird references are photorealistic fluffy stylized-3D renders. These cannot coexist as-is in one shot. Every prompt below renders the whole scene in the birds' fluffy stylized-3D look and scopes the enchantress reference to design/pose/wardrobe ONLY — explicitly excluding her reference's flat-shading/line-art rendering style. If you'd rather go full flat-anime instead, swap which reference is scoped to "style" vs "design only" in every prompt and regenerate.
+
+ATTACHMENT MAP:
+  shot_01.txt: ASSET = [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png], STYLE = none (style intent carried in prose, see style-unification note above)
+  shot_02.txt: ASSET = [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png], STYLE = none
+
+ENTITIES WITHOUT AN ASSET SLOT: none — all 3 recurring characters fit within the 3-slot cap.
+LOCATION PLATES: none generated. Location (open clearing/courtyard) is a simple, low-continuity-risk setting carried by prose in each shot's CONTEXT line only.
+
+DURATION OVERRIDE (project-specific, not a change to the skill's documented default):
+  You noted your Veo surface caps single generations at 10s, not the 8s this skill defaults to from Google's published spec. Built this project as 2x10s independent clips (20s total) instead of the skill's default 8s-clip/extend-chain pattern. If your tool consistently caps at 10s, consider asking to update the skill's DEFAULT so future projects don't need this override called out manually.
+
+CONTINUITY BETWEEN CLIP 1 AND CLIP 2:
+  These are independent calls, not a chained extend — there's a natural comedic beat-change ("Not again" pause) between them. Continuity is carried by: (1) identical ASSET attachments in both clips, (2) identical identity-descriptor sentences, (3) shot_02's opening CONTEXT line explicitly restating the state shot_01 ended on (portal still open, birds just landed, enchantress startled) so Veo doesn't have to guess the starting state.
+
+IF A CHARACTER'S IDENTITY DRIFTS BETWEEN CLIP 1 AND CLIP 2:
+  Check first that both clips attach all three reference images identically and that the descriptor sentences weren't reworded. If drift persists on the enchantress specifically (most likely, since her reference is a single dynamic-angle pose rather than a neutral front view), see the escalation technique in references/veo-video-prompting.md.
+
+GENERATION ORDER:
+  1. Generate storyboard_preview_A.txt and storyboard_preview_B.txt first; confirm blocking/comedic timing reads well before spending on video.
+  2. Generate video/shot_01.txt.
+  3. Generate video/shot_02.txt, re-attaching the same three reference images.
+
+LIVE-VERIFICATION CAVEATS:
+  - Aspect ratio defaulted to 16:9 (safer with asset references per current research). If you want 9:16 for social/vertical delivery, test a short throwaway generation first — reference images + portrait mode had reported issues on some Veo 3.1 endpoints at research time.
+  - Confirm current Veo model ID/availability before running.

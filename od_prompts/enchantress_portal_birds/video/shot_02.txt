@@ -1,0 +1,28 @@
+Veo 3.1 prompt — ~10s call, covering P05-P08 of "Not Again."
+Aspect ratio: 16:9.
+
+---
+
+ATTACH AS ASSET: [enchantress_ref.png, bird_blue_ref.png, bird_purple_ref.png] — same three plates as shot_01.txt, same scoping rules (enchantress reference for design/pose/wardrobe only, not rendering style; both bird references for full appearance).
+ATTACH AS STYLE: none.
+
+This is clip 2 of 2 (independent call, not an extend from shot_01). Opens exactly where shot_01.txt ended: portal still open, both birds just landed and upright, enchantress startled and staring at them.
+
+---
+
+CINEMATOGRAPHY: Low-angle shot for the resealing effort, cutting to a close-up on the portal for the fizzle, settling to a medium shot for the slump, ending on a static wide shot held for the final line.
+SUBJECT: a young hooded enchantress with a dark complexion and sharp gray eyes, wearing deep indigo-blue hooded robes with pale blue trim and a tan belt sash, wielding a tall blue staff topped with a faceted crystal; a small round fluffy bird with vivid cobalt-blue plumage, a tall swept-back crest, a fluffy white face and belly, wide sparkling blue eyes, and a cheerful expression; a small round fluffy bird with deep violet-blue plumage, a tufted crest, and oversized pale eyes with a low-lidded skeptical expression.
+ACTION: the enchantress strains to reseal the portal as the two birds watch nearby; the portal shrinks and fizzles out; she slumps to the ground, sulking, birds close beside her; after a beat of silence, an unseen third voice speaks from off-frame.
+CONTEXT: the same open outdoor clearing as shot_01, soft grass and plain sky backdrop, portal positioned in the same relative spot it held at the end of shot_01.
+STYLE & AMBIANCE: soft stylized-3D fluffy-character render style (matching both bird references), bright naturalistic daylight as the motivated source, clean warm color palette with the cool blue-white magic accent fading out as the portal dies, normal lens, clear air, comedic timing pacing with a held, quiet pause before the final line.
+
+DIALOGUE: The enchantress grunts, "It's almost there—" while straining to reseal the portal. Later, an unseen voice off-frame says, "Um... hello?"
+SFX: a straining magical whine during the reseal effort, a sputtering fizzle as the portal collapses, silence during the sulk, a soft rustle just before the off-frame voice.
+AMBIENT: quiet outdoor clearing tone, light wind, near-silence in the final beat.
+No background music until a single soft comedic sting under the final line.
+
+BEATS (timestamped within this ~10s call):
+[00:00-00:03] P05: Low-angle shot, the enchantress plants her feet and raises the staff overhead with both hands, straining, both birds now upright and watching curiously beside her; she grunts, "It's almost there—"
+[00:03-00:05] P06: Close-up on the portal as it shrinks, sputters, and collapses into a last flicker of light, then goes dark.
+[00:05-00:08] P07: Medium shot, the enchantress drops to sit on the ground, shoulders slumped, staff across her lap; the blue bird presses close against her side, the purple bird just watches, unmoved.
+[00:08-00:10] P08: Static wide shot, held stillness — then, from off-frame behind her, a new voice: "Um... hello?" She freezes, eyes going wide. Cut to black before she turns around.
