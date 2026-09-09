@@ -18,7 +18,7 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 
 ## Adult Fiction Line — SFF/Speculative (17)
 - [ ] Epic Fantasy · [ ] Urban Fantasy · [ ] Cozy Fantasy · [ ] Dark Fantasy · [ ] Sword & Sorcery
-- [ ] LitRPG/Progression · [ ] Space Opera · [ ] Cyberpunk · [x] Dystopian (v1.0) · [x] Post-Apocalyptic (v1.0)
+- [ ] LitRPG/Progression · [x] Space Opera (v1.0) · [x] Cyberpunk (v1.0) · [x] Dystopian (v1.0) · [x] Post-Apocalyptic (v1.0)
 - [ ] Time Travel · [ ] First Contact · [ ] Solarpunk/Cli-Fi · [ ] Afrofuturism · [ ] Alt-History · [ ] Horror
 - [x] Dark Fairytale Retelling (v1.0)
   Note: Dystopian and Post-Apocalyptic ship as one combined pack — "Dystopian & Post-Apocalyptic Master Prompt Pack v1.0" (25 prompts, Adult Fiction Line).
@@ -83,4 +83,4 @@ Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-f
 - [ ] Self-Help · [ ] Devotional/Faith · [ ] Memoir · [ ] How-To/Guide · [ ] Journal/Workbook (low content)
 - [ ] Cookbook · [ ] Kids' Educational Nonfiction · [ ] Homeschool Unit Studies · [ ] Planner Systems · [ ] Coloring Book Companion
 
-**Total: 181 planned + released (9 released)**
+**Total: 181 planned + released (11 released)**
