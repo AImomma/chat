@@ -5,6 +5,34 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## Superhero Fiction Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Adult Fiction Line · 24 prompts across 6 phases
+
+- New catalog entry under Adult Fiction Line — SFF/Speculative (section count 17 → 18).
+  Superhero was not previously on the roadmap.
+- **Prompt count: 24, above the 22 adult baseline.** The genre carries systems a
+  single-protagonist novel in another genre does not: the world's institutional
+  response to powers (P5 legal/oversight/liability, P6 media and public opinion),
+  a recurring rogues gallery as a plural cast plus a separate arch-enemy who
+  functions as an argument (P11, P12), and a dedicated action-prose pass (P21),
+  since rendering a fight in sentences rather than panels is this genre's
+  distinctive craft problem.
+- Phases: 1 Define the Lane (4) · 2 Build the World That Has Powers In It (4) ·
+  3 Forge the Cast (5) · 4 Architect the Story (4) · 5 Write the Book (4) ·
+  6 Polish, Publish, Expand (3).
+- Structural spine runs three threads in parallel — heroic plot, identity plot,
+  public-opinion plot — tracked per chapter in P18 and audited in P22.
+- P24 carries a power-creep contract: the author commits in writing to what the
+  power will not become, and names five things to escalate instead.
+- Cover subtitle: "From Origin Story to Published Novel".
+
+Files:
+- `Adult Fiction Line/Superhero_Fiction_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/superhero_pack_data.py`
+
+---
+
 ## Space Opera Master Prompt Pack — v1.0 (2026-09-09)
 
 **Status:** New release · Adult Fiction Line · 22 prompts across 6 phases (baseline)
