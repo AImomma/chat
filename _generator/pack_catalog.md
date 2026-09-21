@@ -70,12 +70,13 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [ ] Leveled Series Builder (same characters across bands) · [ ] Bilingual Leveled Readers
 - [ ] Reader's Theater Scripts at Level · [ ] Comprehension Companion (questions + activities per story)
 
-## AI Video Line — Micro-Dramas, Vertical Series & Long-Form (28)
+## AI Video Line — Micro-Dramas, Vertical Series & Long-Form (29)
 Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-form) · Works with ChatGPT, Claude, Midjourney, Nano Banana Pro, Google Veo, Kling, Seedance · PDF releases live in `AI Video Line/` (see video_reference.md)
 - [x] Micro-Drama Foundations (v1.0 — the base grammar all vertical genre packs inherit)
 - [x] Micro-Drama: 15-Second Episode System (v1.0)
 - [x] Long-Form AI Film & Clip-Down System (v1.0 — 24 prompts)
 - [x] AI Short Film (v1.0 — 22 prompts, companion to the Short Film Screenplay pack)
+- [x] Youth & Family Superhero Series (v1.0 — 26 prompts; cinematic or cartoon mode lock, MG-lean or YA-lean, key art included)
 - [ ] Vertical Romance Micro-Drama · [ ] Revenge/Betrayal Micro-Drama · [ ] Billionaire/CEO Micro-Drama
 - [ ] Thriller/Suspense Micro-Drama · [ ] Horror Micro-Series · [ ] Fantasy/Supernatural Micro-Drama
 - [ ] Historical/Period Micro-Drama · [ ] Comedy Sketch Series · [ ] Kids Animated Micro-Series
@@ -102,4 +103,4 @@ Cover: "From One Idea to a Shootable Script" (or per-format) · Works with any L
 - [ ] Self-Help · [ ] Devotional/Faith · [ ] Memoir · [ ] How-To/Guide · [ ] Journal/Workbook (low content)
 - [ ] Cookbook · [ ] Kids' Educational Nonfiction · [ ] Homeschool Unit Studies · [ ] Planner Systems · [ ] Coloring Book Companion
 
-**Total: 200 planned + released (18 released)**
+**Total: 201 planned + released (19 released)**

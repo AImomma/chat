@@ -5,6 +5,59 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## Youth & Family Superhero Series Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · AI Video Line · 26 prompts across 6 phases · 37 pages
+
+- New catalog entry in the AI Video Line (section 28 → 29). The largest pack in
+  the library, because it spans three jobs the other packs split up: the story and
+  cast work the Superhero reading packs do, the screen production and continuity
+  work the AI Short Film pack does, and the packaging (key art, title treatment)
+  that nothing else covered.
+- **Prompt count: 26, above the 22 baseline — and NOT because of the audience.**
+  A youth pack would normally run fewer. It is up because the scope is three
+  packs in one: story and cast (5 prompts), continuity and design (4), series and
+  episodes (5), generation (4), packaging (2). Stated to the user in chat before
+  building, with an offer to split it into a pair instead; the user chose one pack.
+- **TWO LOCKS RUN THE PACK.** Prompt 1 sets the audience LEAN inside a
+  youth-and-family band — MG-lean (8-12, protagonist 10-13) or YA-lean (13-17,
+  protagonist 15-18) — rather than forcing a single audience, because family
+  content plays to a young viewer with an adult in the room. Prompt 2 is the MODE
+  LOCK — cinematic live-action look, or animated cartoon — and it carries a routing
+  table stating exactly how the choice changes the design bible, the style lock,
+  the plate method, the engine assignment and the kind of poster Prompt 23
+  produces. The mode prompt is honest that photoreal young human faces are the
+  hardest continuity problem in generated video and recommends cartoon mode for a
+  first series.
+- Phases: 1 Lock It (4) · 2 Cast and World (5) · 3 Lock the Look and the
+  Continuity (4) · 4 The Series and the Episodes (5) · 5 Make It (4) ·
+  6 Package and Release (4).
+- Series-specific machinery the single-film pack does not need: a silhouette test
+  so every character is identifiable at thumbnail size (P9); an expression plate
+  set, because a face locked only in neutral drifts the moment a character laughs
+  (P11); a locked power-effect phrase that must never be paraphrased, since it is
+  the most repeated visual in a superhero series (P13 item 1); a reusable episode
+  template with four rotating cold-open strategies (P15); a cliffhanger ladder
+  that classifies every episode ending as PROMISES / WITHHOLDS / RESOLVES / FLAT
+  and rewrites the last two (P18); establishing-shot reuse across episodes (P19
+  item 9); an episode assembly template built once (P22 item 9); and a
+  cross-episode drift check comparing episode one against the newest (P25 item 13).
+- The key art request is answered in full at P23: mode-routed poster design
+  (live-action key art conventions vs animated movie poster conventions), a
+  thumbnail-size survival test, a cliché forbid list, then the actual generation
+  prompt with a hard no-text rule and reserved space for the title — all text
+  added in post, per P24.
+- P26 item 1 carries a deliberate caution: platform policy for content aimed at
+  children is strict, specific and enforced, and the prompt instructs the author to
+  read current policy rather than assume.
+- Cover subtitle: "From Character to Finished Episodes, Cover Included".
+
+Files:
+- `AI Video Line/Youth_Family_Superhero_Series_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/youth_superhero_series_pack_data.py`
+
+---
+
 ## Flash Fiction Master Prompt Pack — v1.0 (2026-09-21)
 
 **Status:** New release · Adult Fiction Line · 16 prompts across 5 phases
