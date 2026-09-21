@@ -24,18 +24,19 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [x] Dark Fairytale Retelling (v1.0)
   Note: Dystopian and Post-Apocalyptic ship as one combined pack — "Dystopian & Post-Apocalyptic Master Prompt Pack v1.0" (25 prompts, Adult Fiction Line).
 
-## Adult Fiction Line — General/Other (12)
+## Adult Fiction Line — General/Other (13)
 - [x] Adventure (v2.0) · [ ] Action/Men's Adventure · [ ] Western · [ ] Historical Fiction
 - [ ] Women's Fiction · [ ] Book Club/Literary · [ ] Christian Fiction · [ ] Saga/Family Epic
-- [x] Short Story (v1.0 — genre-general, genre locked at Prompt 1) · [x] Flash Fiction (v1.0 — 16 prompts) · [ ] Short Story Collection · [ ] Novella Factory
+- [x] Short Story (v1.0 — genre-general, genre locked at Prompt 1) · [x] Flash Fiction (v1.0 — 16 prompts) · [x] Mystery & Crime Short (v1.0 — 22 prompts) · [ ] Short Story Collection · [ ] Novella Factory
   Note: Short Story (writing one) and Short Story Collection (assembling and selling a set) are
   separate packs. The writing pack is genre-general by design — short story craft is
   genre-independent, so Prompt 1 locks genre and length and routes the rest.
   Genre-specific short story packs are only worth building where a genre adds a real structural
-  problem the general pack cannot carry. Of the three identified, Flash Fiction is now built as
-  its own pack (the Short Story pack treats flash as one of five length bands; the Flash pack
-  treats it as a form, and covers the micro sub-forms). Still open: Mystery/Crime Short
-  (fair-play clueing at length), Horror Short (dread economy).
+  problem the general pack cannot carry. Two of the three identified are now built: Flash Fiction
+  (the Short Story pack treats flash as one of five length bands; the Flash pack treats it as a
+  form, and covers the micro sub-forms) and Mystery & Crime Short (fair-play clueing at length —
+  a novel conceals by distance, a short story has none, so concealment becomes technique).
+  Still open: Horror Short (dread economy at short length).
 
 ## Young Adult Line (19)
 - [ ] YA Contemporary · [ ] YA Romance · [ ] YA Romantasy · [ ] YA Fantasy · [ ] YA Dystopian
@@ -103,4 +104,4 @@ Cover: "From One Idea to a Shootable Script" (or per-format) · Works with any L
 - [ ] Self-Help · [ ] Devotional/Faith · [ ] Memoir · [ ] How-To/Guide · [ ] Journal/Workbook (low content)
 - [ ] Cookbook · [ ] Kids' Educational Nonfiction · [ ] Homeschool Unit Studies · [ ] Planner Systems · [ ] Coloring Book Companion
 
-**Total: 201 planned + released (19 released)**
+**Total: 202 planned + released (20 released)**

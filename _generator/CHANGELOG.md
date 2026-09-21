@@ -5,6 +5,57 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## Mystery & Crime Short Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Adult Fiction Line · 22 prompts across 6 phases · 30 pages
+
+- New catalog entry under General/Other (section 12 → 13). The second of the three
+  short-fiction packs flagged as worth building beyond the general Short Story
+  pack; Horror Short remains open.
+- **Prompt count: 22 — exactly the adult baseline.** No approval needed either way.
+  It lands there because Phase 3 (the clue system) is four prompts no other pack in
+  the library needs, which is precisely what takes it from the Short Story pack's
+  20 up to baseline.
+- **The problem the pack exists to solve:** a novel conceals a clue by DISTANCE
+  (the reader met it two hundred pages ago and forgot). A short story has four
+  thousand words and no distance to spend, so concealment has to be TECHNIQUE.
+  Prompt 12 teaches eight of them — the list, the disguise, the discounted source,
+  the overshadow, the premature, the absence, the split, the plain statement — each
+  demonstrated on the author's own material.
+- **Built backwards, like the Short Film pack.** Prompt 2 writes the true sequence
+  of what actually happened (a document never published), Prompt 3 writes the
+  solution before any story exists, and every prompt after is the craft of hiding
+  it fairly.
+- Phases: 1 Lock the Case (4) · 2 Build the Case (4) · 3 The Clue System (4) ·
+  4 Structure It (3) · 5 Write It (3) · 6 Audit and Send (4).
+- Load-bearing pieces: P1 is honest that a whodunit is the HARD short form (suspects
+  need words) and points toward howdunit, whydunit and inverted; P4 writes out an
+  explicit fair-play contract as numbered rules, adjusted to sub-genre, so Phase 6
+  has something to measure against; P9's clue ladder places every clue with a
+  concealment method and argues for putting the load-bearing clue EARLY, where the
+  reader has no framework for it; P10 holds the line that a red herring is a true
+  fact pointed wrong, never a lie, and sets the ratio giving real clues LESS
+  attention than herrings; P11 tracks two timelines and audits whether information
+  is delayed because the detective has not found it (structure) or because the
+  author is hiding it (a breach); P15 caps the reveal at 250-400 words.
+- P19, the fair-play audit, is the reason the pack exists. It runs adversarially,
+  instructs the model to QUOTE the exact text supporting each step of the reasoning
+  chain (asking whether a clue is present gets a yes; asking for the sentence gets
+  the truth), and attempts to construct an alternative solution from what is on the
+  page.
+- P8 item 8 addresses the genre's hardest craft problem directly: how a first-person
+  or close-third detective can register a realisation without either revealing it or
+  cheating.
+- Submission prompts explain principles rather than naming markets, since guidelines
+  change; P22 additionally covers whether the detective should recur.
+- Cover subtitle: "From the Solution Backwards to a Submittable Story".
+
+Files:
+- `Adult Fiction Line/Mystery_Crime_Short_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/mystery_crime_short_pack_data.py`
+
+---
+
 ## Youth & Family Superhero Series Master Prompt Pack — v1.0 (2026-09-21)
 
 **Status:** New release · AI Video Line · 26 prompts across 6 phases · 37 pages
