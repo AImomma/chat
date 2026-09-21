@@ -5,6 +5,175 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## AI Short Film Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · AI Video Line · 22 prompts across 6 phases (AI Video baseline)
+
+- Production half of a pair: the Short Film Screenplay pack writes the script,
+  this one generates it. Written to stand alone — it does NOT assume the reader
+  has the three AI Video Line packs the catalog marks as released (Micro-Drama
+  Foundations, 15-Second Episode System, Long-Form AI Film), whose PDFs are not
+  in this repo.
+- Phases: 1 Define the Film (4) · 2 Lock Continuity (4) · 3 Architect the Shots (4) ·
+  4 Generate (4) · 5 Audio and Assembly (3) · 6 Finish and Release (3).
+- Deliberately **engine-agnostic**. Clip lengths, costs and feature sets change
+  constantly, so the prompts tell the user what to ask each model for and how to
+  test it, and instruct them to check current limits rather than trusting a
+  figure printed in a PDF.
+- Phase 2 is the pack's argument: continuity locked before any final clip is
+  generated. Includes a simplification pass (P5 item 5) that tells the author
+  which character and set details to REMOVE, since every added detail is another
+  thing forty generations can get wrong.
+- Other load-bearing pieces: clip math with an attempt multiplier by difficulty
+  and a go/no-go call (P1); a hard-zone audit for the known failure areas —
+  legible text, hands, crowds, reflections, object counts (P1 item 6); a reusable
+  look block pasted verbatim into every prompt (P3); the dialogue decision framed
+  as the single biggest production choice, with an aggressive off-ramp audit
+  (P2 item 5, P15 item 2); keyframe chaining (P11 item 3); a regeneration
+  stopping rule (P16 item 3); and the best-two-seconds principle throughout.
+- Audio is its own layer from P4, before any picture exists, because deciding it
+  late forces regeneration.
+- Cover subtitle: "From Script to Finished AI Short Film". Works-with line carries
+  the AI Video Line tool stack.
+
+Files:
+- `AI Video Line/AI_Short_Film_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/ai_short_film_pack_data.py`
+
+---
+
+## Short Film Screenplay Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Screenwriting Line (NEW LINE) · 18 prompts across 6 phases
+
+- **Establishes the Screenwriting Line** — scripts for human production. This is a
+  new line in the catalog, distinct from the AI Video Line: 13 entries, 1 released.
+  Releases live in `Screenwriting Line/`.
+- **Prompt count: 18, below the 22 baseline. User-approved on 2026-09-21 before
+  building,** per the count policy. Reasons: a short film has no subplot
+  architecture, no series runway, no multi-batch drafting (a 10-page script is
+  written in one or two passes), and no retail/metadata phase — it goes to
+  festivals and production, not retail.
+- Phases: 1 Find the One Thing (3) · 2 Build the Situation (3) · 3 Structure It (3) ·
+  4 Write the Script (3) · 5 Make It Shootable (3) · 6 Send It Out (3).
+- Built on the form's actual discipline: P1 diagnoses whether the idea is even a
+  short (half of all short scripts are features with the middle deleted); P3
+  writes the LAST image first and derives a backward chain of what the ending
+  requires, which becomes the cut test for every later scene; P7 offers six short-film
+  shapes rather than defaulting to three acts; P9 distinguishes an earned turn from
+  withheld information.
+- Production is treated as part of the writing: P13 is a line-producer breakdown
+  against the author's real resources, P14 estimates screen time scene by scene
+  rather than trusting page count, and P2 locks constraints as rules before drafting.
+- Cover subtitle: "From One Idea to a Shootable Script".
+
+**Provisional add-on modules recorded, not included:** two 4-prompt modules
+(Writer-Director, Craft-Depth) are documented in `_generator/addon_modules.md`
+for recommendation on future packs where they fit, at the user's request.
+
+Files:
+- `Screenwriting Line/Short_Film_Screenplay_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/short_film_screenplay_pack_data.py`
+
+---
+
+## MG Superhero Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Middle Grade Line · 18 prompts across 6 phases
+
+- New catalog entry (Middle Grade Line 12 → 13). Companion to the YA and Adult
+  superhero packs, but built from a different engine rather than scaled down.
+- **Prompt count: 18, below the 22 adult baseline — pre-approved for MG, stated
+  in chat.** The manuscript is 30,000-50,000 words (roughly a third of the adult
+  pack's target), which needs fewer drafting-batch prompts, and the genre has no
+  rogues-gallery phase here: one understandable antagonist carries the book. The
+  two audit prompts and the publish/series prompts are also combined, since MG
+  retail copy and series planning are shorter jobs.
+- Phases: 1 Set It Up (3) · 2 Build the World (3) · 3 Forge the Cast (4) ·
+  4 Architect the Story (3) · 5 Write the Book (3) · 6 Finish It (2).
+- MG-specific machinery: a mandatory hope floor set in P1 and audited in P17;
+  a power system whose costs are comic before they are serious, with a "fun list"
+  (P2) the book is expected to spend an early chapter on; one trusted grown-up
+  with an explicit stated limit (P8) so the hero still has to fix it; a crew where
+  every member has a job the plan cannot work without (P9); a kid-scale clock
+  ("before Mum gets home") in the set-piece generator (P13); and read-aloud flag
+  lists built into both the drafting engine and the audit.
+- P4 item 8 requires a written answer to "why can't the grown-ups solve this",
+  and P17 item 15 audits that answer chapter by chapter.
+- Level spec on cover: Ages 8-12, Grades 3-7, Lexile 650L-950L, GR Q-X.
+- Cover subtitle: "From Origin Story to Finished Middle Grade Novel".
+
+Files:
+- `Middle Grade Line/MG_Superhero_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/mg_superhero_pack_data.py`
+
+---
+
+## YA Superhero Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Young Adult Line · 20 prompts across 6 phases
+
+- New catalog entry (Young Adult Line 18 → 19), targeted at grade 12 / upper YA
+  per the request. Not a revision of the Adult superhero pack — a different
+  audience line means a separate pack with its own v1.0; the Adult pack is
+  unchanged.
+- **Prompt count: 20, below the 22 adult baseline — pre-approved for teen packs,
+  stated in chat.** The identity plot absorbs what the adult pack spends on
+  separate institutional machinery, so the rogues-gallery and arch-enemy prompts
+  consolidate into one antagonist prompt and the two world prompts merge.
+- Phases: 1 Lock the Lane (3) · 2 Build the World That Has Powers and Minors In It
+  (4) · 3 Forge the Cast (4) · 4 Architect the Story (3) · 5 Write the Book (3) ·
+  6 Polish, Publish, Expand (3).
+- YA-specific machinery: the institutional layer is rebuilt around the powered
+  MINOR — the guardian's legal exposure, the school's obligation, the programme
+  (P4); a guardians prompt (P9) whose core move is the "worried wrong idea", where
+  loving, intelligent adults conclude something plausible and wrong from the
+  evidence; the rival as someone whose respect matters more than victory (P10);
+  an antagonist whose midpoint offer is to let a tired seventeen-year-old stop
+  carrying this (P11); the school-year calendar as the structural clock; and the
+  "stolen year" as the YA form of collateral damage.
+- P18 runs a combined power-logic and grade-12 voice audit, including a
+  ventriloquism sweep and an agency check for every place an adult solves the
+  protagonist's problem.
+- P20 handles the graduation problem — the protagonist ages out of the premise —
+  alongside a power-creep contract.
+- Level spec on cover: Grade 12, Ages 17-18, Lexile 1010L+, GR X-Z+.
+- Cover subtitle: "From Origin Story to Finished Upper-YA Novel".
+
+Files:
+- `Young Adult Line/YA_Superhero_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/ya_superhero_pack_data.py`
+
+---
+
+## Superhero Fiction Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Adult Fiction Line · 24 prompts across 6 phases
+
+- New catalog entry under Adult Fiction Line — SFF/Speculative (section count 17 → 18).
+  Superhero was not previously on the roadmap.
+- **Prompt count: 24, above the 22 adult baseline.** The genre carries systems a
+  single-protagonist novel in another genre does not: the world's institutional
+  response to powers (P5 legal/oversight/liability, P6 media and public opinion),
+  a recurring rogues gallery as a plural cast plus a separate arch-enemy who
+  functions as an argument (P11, P12), and a dedicated action-prose pass (P21),
+  since rendering a fight in sentences rather than panels is this genre's
+  distinctive craft problem.
+- Phases: 1 Define the Lane (4) · 2 Build the World That Has Powers In It (4) ·
+  3 Forge the Cast (5) · 4 Architect the Story (4) · 5 Write the Book (4) ·
+  6 Polish, Publish, Expand (3).
+- Structural spine runs three threads in parallel — heroic plot, identity plot,
+  public-opinion plot — tracked per chapter in P18 and audited in P22.
+- P24 carries a power-creep contract: the author commits in writing to what the
+  power will not become, and names five things to escalate instead.
+- Cover subtitle: "From Origin Story to Published Novel".
+
+Files:
+- `Adult Fiction Line/Superhero_Fiction_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/superhero_pack_data.py`
+
+---
+
 ## Space Opera Master Prompt Pack — v1.0 (2026-09-09)
 
 **Status:** New release · Adult Fiction Line · 22 prompts across 6 phases (baseline)

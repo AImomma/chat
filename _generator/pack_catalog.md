@@ -16,10 +16,11 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [ ] Psychological Thriller · [ ] Domestic Thriller · [ ] Espionage Thriller · [ ] Techno-Thriller
 - [ ] Serial Killer/Dark Crime · [ ] True-Crime-Style Fiction
 
-## Adult Fiction Line — SFF/Speculative (17)
+## Adult Fiction Line — SFF/Speculative (18)
 - [ ] Epic Fantasy · [ ] Urban Fantasy · [ ] Cozy Fantasy · [ ] Dark Fantasy · [ ] Sword & Sorcery
 - [ ] LitRPG/Progression · [x] Space Opera (v1.0) · [x] Cyberpunk (v1.0) · [x] Dystopian (v1.0) · [x] Post-Apocalyptic (v1.0)
 - [ ] Time Travel · [ ] First Contact · [ ] Solarpunk/Cli-Fi · [ ] Afrofuturism · [ ] Alt-History · [ ] Horror
+- [x] Superhero Fiction (v1.0)
 - [x] Dark Fairytale Retelling (v1.0)
   Note: Dystopian and Post-Apocalyptic ship as one combined pack — "Dystopian & Post-Apocalyptic Master Prompt Pack v1.0" (25 prompts, Adult Fiction Line).
 
@@ -28,16 +29,18 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [ ] Women's Fiction · [ ] Book Club/Literary · [ ] Christian Fiction · [ ] Saga/Family Epic
 - [ ] Short Story Collection · [ ] Novella Factory
 
-## Young Adult Line (18)
+## Young Adult Line (19)
 - [ ] YA Contemporary · [ ] YA Romance · [ ] YA Romantasy · [ ] YA Fantasy · [ ] YA Dystopian
 - [ ] YA Sci-Fi · [ ] YA Thriller · [ ] YA Mystery · [ ] YA Horror · [ ] YA Paranormal
 - [ ] YA Sports · [ ] YA Historical · [ ] YA Verse Novel · [ ] YA Coming-of-Age
 - [ ] YA Social Issues · [ ] YA Adventure/Survival · [ ] YA Anthology · [ ] Teen Devotional/Journal
+- [x] YA Superhero (v1.0 — grade 12 / upper YA)
 
-## Middle Grade Line (12) — ages 8-12
+## Middle Grade Line (13) — ages 8-12
 - [ ] MG Adventure · [ ] MG Fantasy · [ ] MG Mystery · [ ] MG Humor · [ ] MG Sci-Fi
 - [ ] MG Spooky/Ghost · [ ] MG Animal Story · [ ] MG Sports · [ ] MG Friendship/School
 - [ ] MG Historical · [ ] MG Graphic-Novel Script · [ ] MG Series Architecture
+- [x] MG Superhero (v1.0)
 
 ## Chapter Book Line (8) — ages 6-9
 - [ ] Chapter Book Adventure · [ ] Chapter Book Mystery · [ ] Chapter Book Humor
@@ -59,11 +62,12 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [ ] Leveled Series Builder (same characters across bands) · [ ] Bilingual Leveled Readers
 - [ ] Reader's Theater Scripts at Level · [ ] Comprehension Companion (questions + activities per story)
 
-## AI Video Line — Micro-Dramas, Vertical Series & Long-Form (27)
+## AI Video Line — Micro-Dramas, Vertical Series & Long-Form (28)
 Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-form) · Works with ChatGPT, Claude, Midjourney, Nano Banana Pro, Google Veo, Kling, Seedance · PDF releases live in `AI Video Line/` (see video_reference.md)
 - [x] Micro-Drama Foundations (v1.0 — the base grammar all vertical genre packs inherit)
 - [x] Micro-Drama: 15-Second Episode System (v1.0)
 - [x] Long-Form AI Film & Clip-Down System (v1.0 — 24 prompts)
+- [x] AI Short Film (v1.0 — 22 prompts, companion to the Short Film Screenplay pack)
 - [ ] Vertical Romance Micro-Drama · [ ] Revenge/Betrayal Micro-Drama · [ ] Billionaire/CEO Micro-Drama
 - [ ] Thriller/Suspense Micro-Drama · [ ] Horror Micro-Series · [ ] Fantasy/Supernatural Micro-Drama
 - [ ] Historical/Period Micro-Drama · [ ] Comedy Sketch Series · [ ] Kids Animated Micro-Series
@@ -74,6 +78,13 @@ Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-f
 - [ ] AI Book Trailer · [ ] Faceless Story Shorts · [ ] AI Music Video · [ ] Kids Animated Shorts · [ ] AI Commercial/UGC
 - [ ] Vertical Revenge Drama (REVIEW: overlaps Revenge/Betrayal + Vertical Revenge/Comeback) · [ ] Vertical Romance Drama (REVIEW: overlaps Vertical Romance Micro-Drama)
 
+## Screenwriting Line (13) — scripts for human production
+Cover: "From One Idea to a Shootable Script" (or per-format) · Works with any LLM · PDF releases live in `Screenwriting Line/`
+- [x] Short Film Screenplay (v1.0 — 18 prompts; paired with AI Short Film in the AI Video Line)
+- [ ] Feature Screenplay · [ ] TV Pilot · [ ] TV Series Bible · [ ] Limited Series · [ ] Web Series
+- [ ] Spec Script Polish · [ ] Adaptation (Book to Screen) · [ ] Sitcom Episode · [ ] Procedural Episode
+- [ ] Animation Script · [ ] Documentary Structure · [ ] Commercial & Branded Script
+
 ## Author Business Line (12)
 - [ ] Author Email Newsletter · [ ] Reader Magnet · [ ] Book Description/Metadata · [ ] Series Bible
 - [ ] BookTok/Social Content · [ ] Launch Plan · [ ] Amazon Ads Copy · [ ] Author Website Copy
@@ -83,4 +94,4 @@ Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-f
 - [ ] Self-Help · [ ] Devotional/Faith · [ ] Memoir · [ ] How-To/Guide · [ ] Journal/Workbook (low content)
 - [ ] Cookbook · [ ] Kids' Educational Nonfiction · [ ] Homeschool Unit Studies · [ ] Planner Systems · [ ] Coloring Book Companion
 
-**Total: 181 planned + released (11 released)**
+**Total: 198 planned + released (16 released)**
