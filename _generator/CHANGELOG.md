@@ -5,6 +5,49 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## Flash Fiction Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Adult Fiction Line · 16 prompts across 5 phases
+
+- New catalog entry under General/Other (section 11 → 12). Companion to the Short
+  Story pack rather than a subset of it: that pack treats flash as one of five
+  length bands (four touchpoints — the length lock, the skip note, the opening
+  allocation), this one treats it as its own form.
+- **Prompt count: 16, below the 22 baseline. User-approved on 2026-09-21 before
+  building,** per the count policy. Reasons: the form has no scenes, no subplot,
+  no scene budget, no series runway and no multi-pass drafting. Compression is the
+  spine rather than a phase. 5 phases rather than 6, since revision and submission
+  combine at this length.
+- Covers what the general pack has no room for: the **micro sub-forms** — drabble
+  at exactly 100 words, dribble at 50, hint fiction under 25 — where the count IS
+  the form; **title-as-text** (P5) treated as a structural component with five
+  distinct jobs, including the Missing Piece where the title supplies the fact the
+  prose withholds; **character in a sentence** rather than a paragraph (P4),
+  including whether to name the character at all; **flash-specific structures**
+  (P7) — single image, two-beat, list, borrowed form, monologue, catalogue of a
+  life, reveal, repetition — rather than the seven shapes scaled for 2,500+ words;
+  the **first fifteen words** rather than a first page (P8); and **compression to
+  an exact count** (P11) with a title-transfer trade for landing precisely on a
+  fixed number.
+- P10 deliberately instructs drafting at 130 percent of target, because cutting
+  down produces a denser piece than writing to length.
+- P12 is a dedicated read-aloud and rhythm pass, including final-syllable stress —
+  at this length rhythm does the work structure does in longer forms.
+- P15 covers the flash market ecosystem as distinct from short story markets, and
+  flags exact-count calls as unusually winnable because most entrants miss the count.
+- P16 item 4 records the constraint ladder as deliberate practice: write the same
+  piece at 1,000, then 500, then 100 words.
+- Cover subtitle: "From One Image to a Finished Piece".
+- Catalog note updated: of the three genre/form-specific short fiction packs
+  identified as worth building, Flash is now done; Mystery/Crime Short and Horror
+  Short remain open.
+
+Files:
+- `Adult Fiction Line/Flash_Fiction_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/flash_fiction_pack_data.py`
+
+---
+
 ## Short Story Master Prompt Pack — v1.0 (2026-09-21)
 
 **Status:** New release · Adult Fiction Line · 20 prompts across 6 phases
