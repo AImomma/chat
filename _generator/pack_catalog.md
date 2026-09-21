@@ -62,11 +62,12 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [ ] Leveled Series Builder (same characters across bands) · [ ] Bilingual Leveled Readers
 - [ ] Reader's Theater Scripts at Level · [ ] Comprehension Companion (questions + activities per story)
 
-## AI Video Line — Micro-Dramas, Vertical Series & Long-Form (27)
+## AI Video Line — Micro-Dramas, Vertical Series & Long-Form (28)
 Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-form) · Works with ChatGPT, Claude, Midjourney, Nano Banana Pro, Google Veo, Kling, Seedance · PDF releases live in `AI Video Line/` (see video_reference.md)
 - [x] Micro-Drama Foundations (v1.0 — the base grammar all vertical genre packs inherit)
 - [x] Micro-Drama: 15-Second Episode System (v1.0)
 - [x] Long-Form AI Film & Clip-Down System (v1.0 — 24 prompts)
+- [x] AI Short Film (v1.0 — 22 prompts, companion to the Short Film Screenplay pack)
 - [ ] Vertical Romance Micro-Drama · [ ] Revenge/Betrayal Micro-Drama · [ ] Billionaire/CEO Micro-Drama
 - [ ] Thriller/Suspense Micro-Drama · [ ] Horror Micro-Series · [ ] Fantasy/Supernatural Micro-Drama
 - [ ] Historical/Period Micro-Drama · [ ] Comedy Sketch Series · [ ] Kids Animated Micro-Series
@@ -77,6 +78,13 @@ Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-f
 - [ ] AI Book Trailer · [ ] Faceless Story Shorts · [ ] AI Music Video · [ ] Kids Animated Shorts · [ ] AI Commercial/UGC
 - [ ] Vertical Revenge Drama (REVIEW: overlaps Revenge/Betrayal + Vertical Revenge/Comeback) · [ ] Vertical Romance Drama (REVIEW: overlaps Vertical Romance Micro-Drama)
 
+## Screenwriting Line (13) — scripts for human production
+Cover: "From One Idea to a Shootable Script" (or per-format) · Works with any LLM · PDF releases live in `Screenwriting Line/`
+- [x] Short Film Screenplay (v1.0 — 18 prompts; paired with AI Short Film in the AI Video Line)
+- [ ] Feature Screenplay · [ ] TV Pilot · [ ] TV Series Bible · [ ] Limited Series · [ ] Web Series
+- [ ] Spec Script Polish · [ ] Adaptation (Book to Screen) · [ ] Sitcom Episode · [ ] Procedural Episode
+- [ ] Animation Script · [ ] Documentary Structure · [ ] Commercial & Branded Script
+
 ## Author Business Line (12)
 - [ ] Author Email Newsletter · [ ] Reader Magnet · [ ] Book Description/Metadata · [ ] Series Bible
 - [ ] BookTok/Social Content · [ ] Launch Plan · [ ] Amazon Ads Copy · [ ] Author Website Copy
@@ -86,4 +94,4 @@ Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-f
 - [ ] Self-Help · [ ] Devotional/Faith · [ ] Memoir · [ ] How-To/Guide · [ ] Journal/Workbook (low content)
 - [ ] Cookbook · [ ] Kids' Educational Nonfiction · [ ] Homeschool Unit Studies · [ ] Planner Systems · [ ] Coloring Book Companion
 
-**Total: 184 planned + released (14 released)**
+**Total: 198 planned + released (16 released)**

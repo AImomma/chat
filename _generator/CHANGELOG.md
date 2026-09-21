@@ -5,6 +5,78 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## AI Short Film Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · AI Video Line · 22 prompts across 6 phases (AI Video baseline)
+
+- Production half of a pair: the Short Film Screenplay pack writes the script,
+  this one generates it. Written to stand alone — it does NOT assume the reader
+  has the three AI Video Line packs the catalog marks as released (Micro-Drama
+  Foundations, 15-Second Episode System, Long-Form AI Film), whose PDFs are not
+  in this repo.
+- Phases: 1 Define the Film (4) · 2 Lock Continuity (4) · 3 Architect the Shots (4) ·
+  4 Generate (4) · 5 Audio and Assembly (3) · 6 Finish and Release (3).
+- Deliberately **engine-agnostic**. Clip lengths, costs and feature sets change
+  constantly, so the prompts tell the user what to ask each model for and how to
+  test it, and instruct them to check current limits rather than trusting a
+  figure printed in a PDF.
+- Phase 2 is the pack's argument: continuity locked before any final clip is
+  generated. Includes a simplification pass (P5 item 5) that tells the author
+  which character and set details to REMOVE, since every added detail is another
+  thing forty generations can get wrong.
+- Other load-bearing pieces: clip math with an attempt multiplier by difficulty
+  and a go/no-go call (P1); a hard-zone audit for the known failure areas —
+  legible text, hands, crowds, reflections, object counts (P1 item 6); a reusable
+  look block pasted verbatim into every prompt (P3); the dialogue decision framed
+  as the single biggest production choice, with an aggressive off-ramp audit
+  (P2 item 5, P15 item 2); keyframe chaining (P11 item 3); a regeneration
+  stopping rule (P16 item 3); and the best-two-seconds principle throughout.
+- Audio is its own layer from P4, before any picture exists, because deciding it
+  late forces regeneration.
+- Cover subtitle: "From Script to Finished AI Short Film". Works-with line carries
+  the AI Video Line tool stack.
+
+Files:
+- `AI Video Line/AI_Short_Film_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/ai_short_film_pack_data.py`
+
+---
+
+## Short Film Screenplay Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Screenwriting Line (NEW LINE) · 18 prompts across 6 phases
+
+- **Establishes the Screenwriting Line** — scripts for human production. This is a
+  new line in the catalog, distinct from the AI Video Line: 13 entries, 1 released.
+  Releases live in `Screenwriting Line/`.
+- **Prompt count: 18, below the 22 baseline. User-approved on 2026-09-21 before
+  building,** per the count policy. Reasons: a short film has no subplot
+  architecture, no series runway, no multi-batch drafting (a 10-page script is
+  written in one or two passes), and no retail/metadata phase — it goes to
+  festivals and production, not retail.
+- Phases: 1 Find the One Thing (3) · 2 Build the Situation (3) · 3 Structure It (3) ·
+  4 Write the Script (3) · 5 Make It Shootable (3) · 6 Send It Out (3).
+- Built on the form's actual discipline: P1 diagnoses whether the idea is even a
+  short (half of all short scripts are features with the middle deleted); P3
+  writes the LAST image first and derives a backward chain of what the ending
+  requires, which becomes the cut test for every later scene; P7 offers six short-film
+  shapes rather than defaulting to three acts; P9 distinguishes an earned turn from
+  withheld information.
+- Production is treated as part of the writing: P13 is a line-producer breakdown
+  against the author's real resources, P14 estimates screen time scene by scene
+  rather than trusting page count, and P2 locks constraints as rules before drafting.
+- Cover subtitle: "From One Idea to a Shootable Script".
+
+**Provisional add-on modules recorded, not included:** two 4-prompt modules
+(Writer-Director, Craft-Depth) are documented in `_generator/addon_modules.md`
+for recommendation on future packs where they fit, at the user's request.
+
+Files:
+- `Screenwriting Line/Short_Film_Screenplay_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/short_film_screenplay_pack_data.py`
+
+---
+
 ## MG Superhero Master Prompt Pack — v1.0 (2026-09-21)
 
 **Status:** New release · Middle Grade Line · 18 prompts across 6 phases
