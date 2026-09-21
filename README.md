@@ -16,6 +16,8 @@ Released packs live in their audience-line folder; the generator, catalog and
 changelog live in `_generator/`.
 
 - `Adult Fiction Line/` — released pack PDFs
+- `Young Adult Line/` — released pack PDFs
+- `Middle Grade Line/` — released pack PDFs
 - `_generator/pack_builder.py` — branded PDF builder (requires `reportlab`)
 - `_generator/*_pack_data.py` — per-pack content files
 - `_generator/pack_catalog.md` — roadmap and release status

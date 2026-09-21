@@ -5,6 +5,75 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## MG Superhero Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Middle Grade Line · 18 prompts across 6 phases
+
+- New catalog entry (Middle Grade Line 12 → 13). Companion to the YA and Adult
+  superhero packs, but built from a different engine rather than scaled down.
+- **Prompt count: 18, below the 22 adult baseline — pre-approved for MG, stated
+  in chat.** The manuscript is 30,000-50,000 words (roughly a third of the adult
+  pack's target), which needs fewer drafting-batch prompts, and the genre has no
+  rogues-gallery phase here: one understandable antagonist carries the book. The
+  two audit prompts and the publish/series prompts are also combined, since MG
+  retail copy and series planning are shorter jobs.
+- Phases: 1 Set It Up (3) · 2 Build the World (3) · 3 Forge the Cast (4) ·
+  4 Architect the Story (3) · 5 Write the Book (3) · 6 Finish It (2).
+- MG-specific machinery: a mandatory hope floor set in P1 and audited in P17;
+  a power system whose costs are comic before they are serious, with a "fun list"
+  (P2) the book is expected to spend an early chapter on; one trusted grown-up
+  with an explicit stated limit (P8) so the hero still has to fix it; a crew where
+  every member has a job the plan cannot work without (P9); a kid-scale clock
+  ("before Mum gets home") in the set-piece generator (P13); and read-aloud flag
+  lists built into both the drafting engine and the audit.
+- P4 item 8 requires a written answer to "why can't the grown-ups solve this",
+  and P17 item 15 audits that answer chapter by chapter.
+- Level spec on cover: Ages 8-12, Grades 3-7, Lexile 650L-950L, GR Q-X.
+- Cover subtitle: "From Origin Story to Finished Middle Grade Novel".
+
+Files:
+- `Middle Grade Line/MG_Superhero_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/mg_superhero_pack_data.py`
+
+---
+
+## YA Superhero Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Young Adult Line · 20 prompts across 6 phases
+
+- New catalog entry (Young Adult Line 18 → 19), targeted at grade 12 / upper YA
+  per the request. Not a revision of the Adult superhero pack — a different
+  audience line means a separate pack with its own v1.0; the Adult pack is
+  unchanged.
+- **Prompt count: 20, below the 22 adult baseline — pre-approved for teen packs,
+  stated in chat.** The identity plot absorbs what the adult pack spends on
+  separate institutional machinery, so the rogues-gallery and arch-enemy prompts
+  consolidate into one antagonist prompt and the two world prompts merge.
+- Phases: 1 Lock the Lane (3) · 2 Build the World That Has Powers and Minors In It
+  (4) · 3 Forge the Cast (4) · 4 Architect the Story (3) · 5 Write the Book (3) ·
+  6 Polish, Publish, Expand (3).
+- YA-specific machinery: the institutional layer is rebuilt around the powered
+  MINOR — the guardian's legal exposure, the school's obligation, the programme
+  (P4); a guardians prompt (P9) whose core move is the "worried wrong idea", where
+  loving, intelligent adults conclude something plausible and wrong from the
+  evidence; the rival as someone whose respect matters more than victory (P10);
+  an antagonist whose midpoint offer is to let a tired seventeen-year-old stop
+  carrying this (P11); the school-year calendar as the structural clock; and the
+  "stolen year" as the YA form of collateral damage.
+- P18 runs a combined power-logic and grade-12 voice audit, including a
+  ventriloquism sweep and an agency check for every place an adult solves the
+  protagonist's problem.
+- P20 handles the graduation problem — the protagonist ages out of the premise —
+  alongside a power-creep contract.
+- Level spec on cover: Grade 12, Ages 17-18, Lexile 1010L+, GR X-Z+.
+- Cover subtitle: "From Origin Story to Finished Upper-YA Novel".
+
+Files:
+- `Young Adult Line/YA_Superhero_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/ya_superhero_pack_data.py`
+
+---
+
 ## Superhero Fiction Master Prompt Pack — v1.0 (2026-09-21)
 
 **Status:** New release · Adult Fiction Line · 24 prompts across 6 phases

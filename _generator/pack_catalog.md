@@ -29,16 +29,18 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [ ] Women's Fiction · [ ] Book Club/Literary · [ ] Christian Fiction · [ ] Saga/Family Epic
 - [ ] Short Story Collection · [ ] Novella Factory
 
-## Young Adult Line (18)
+## Young Adult Line (19)
 - [ ] YA Contemporary · [ ] YA Romance · [ ] YA Romantasy · [ ] YA Fantasy · [ ] YA Dystopian
 - [ ] YA Sci-Fi · [ ] YA Thriller · [ ] YA Mystery · [ ] YA Horror · [ ] YA Paranormal
 - [ ] YA Sports · [ ] YA Historical · [ ] YA Verse Novel · [ ] YA Coming-of-Age
 - [ ] YA Social Issues · [ ] YA Adventure/Survival · [ ] YA Anthology · [ ] Teen Devotional/Journal
+- [x] YA Superhero (v1.0 — grade 12 / upper YA)
 
-## Middle Grade Line (12) — ages 8-12
+## Middle Grade Line (13) — ages 8-12
 - [ ] MG Adventure · [ ] MG Fantasy · [ ] MG Mystery · [ ] MG Humor · [ ] MG Sci-Fi
 - [ ] MG Spooky/Ghost · [ ] MG Animal Story · [ ] MG Sports · [ ] MG Friendship/School
 - [ ] MG Historical · [ ] MG Graphic-Novel Script · [ ] MG Series Architecture
+- [x] MG Superhero (v1.0)
 
 ## Chapter Book Line (8) — ages 6-9
 - [ ] Chapter Book Adventure · [ ] Chapter Book Mystery · [ ] Chapter Book Humor
@@ -84,4 +86,4 @@ Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-f
 - [ ] Self-Help · [ ] Devotional/Faith · [ ] Memoir · [ ] How-To/Guide · [ ] Journal/Workbook (low content)
 - [ ] Cookbook · [ ] Kids' Educational Nonfiction · [ ] Homeschool Unit Studies · [ ] Planner Systems · [ ] Coloring Book Companion
 
-**Total: 182 planned + released (12 released)**
+**Total: 184 planned + released (14 released)**
