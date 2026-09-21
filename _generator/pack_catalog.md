@@ -24,10 +24,18 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [x] Dark Fairytale Retelling (v1.0)
   Note: Dystopian and Post-Apocalyptic ship as one combined pack — "Dystopian & Post-Apocalyptic Master Prompt Pack v1.0" (25 prompts, Adult Fiction Line).
 
-## Adult Fiction Line — General/Other (10)
+## Adult Fiction Line — General/Other (12)
 - [x] Adventure (v2.0) · [ ] Action/Men's Adventure · [ ] Western · [ ] Historical Fiction
 - [ ] Women's Fiction · [ ] Book Club/Literary · [ ] Christian Fiction · [ ] Saga/Family Epic
-- [ ] Short Story Collection · [ ] Novella Factory
+- [x] Short Story (v1.0 — genre-general, genre locked at Prompt 1) · [x] Flash Fiction (v1.0 — 16 prompts) · [ ] Short Story Collection · [ ] Novella Factory
+  Note: Short Story (writing one) and Short Story Collection (assembling and selling a set) are
+  separate packs. The writing pack is genre-general by design — short story craft is
+  genre-independent, so Prompt 1 locks genre and length and routes the rest.
+  Genre-specific short story packs are only worth building where a genre adds a real structural
+  problem the general pack cannot carry. Of the three identified, Flash Fiction is now built as
+  its own pack (the Short Story pack treats flash as one of five length bands; the Flash pack
+  treats it as a form, and covers the micro sub-forms). Still open: Mystery/Crime Short
+  (fair-play clueing at length), Horror Short (dread economy).
 
 ## Young Adult Line (19)
 - [ ] YA Contemporary · [ ] YA Romance · [ ] YA Romantasy · [ ] YA Fantasy · [ ] YA Dystopian
@@ -62,12 +70,13 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [ ] Leveled Series Builder (same characters across bands) · [ ] Bilingual Leveled Readers
 - [ ] Reader's Theater Scripts at Level · [ ] Comprehension Companion (questions + activities per story)
 
-## AI Video Line — Micro-Dramas, Vertical Series & Long-Form (28)
+## AI Video Line — Micro-Dramas, Vertical Series & Long-Form (29)
 Cover: "From Concept to Finished Micro-Drama Series" (or "...AI Film" for long-form) · Works with ChatGPT, Claude, Midjourney, Nano Banana Pro, Google Veo, Kling, Seedance · PDF releases live in `AI Video Line/` (see video_reference.md)
 - [x] Micro-Drama Foundations (v1.0 — the base grammar all vertical genre packs inherit)
 - [x] Micro-Drama: 15-Second Episode System (v1.0)
 - [x] Long-Form AI Film & Clip-Down System (v1.0 — 24 prompts)
 - [x] AI Short Film (v1.0 — 22 prompts, companion to the Short Film Screenplay pack)
+- [x] Youth & Family Superhero Series (v1.0 — 26 prompts; cinematic or cartoon mode lock, MG-lean or YA-lean, key art included)
 - [ ] Vertical Romance Micro-Drama · [ ] Revenge/Betrayal Micro-Drama · [ ] Billionaire/CEO Micro-Drama
 - [ ] Thriller/Suspense Micro-Drama · [ ] Horror Micro-Series · [ ] Fantasy/Supernatural Micro-Drama
 - [ ] Historical/Period Micro-Drama · [ ] Comedy Sketch Series · [ ] Kids Animated Micro-Series
@@ -94,4 +103,4 @@ Cover: "From One Idea to a Shootable Script" (or per-format) · Works with any L
 - [ ] Self-Help · [ ] Devotional/Faith · [ ] Memoir · [ ] How-To/Guide · [ ] Journal/Workbook (low content)
 - [ ] Cookbook · [ ] Kids' Educational Nonfiction · [ ] Homeschool Unit Studies · [ ] Planner Systems · [ ] Coloring Book Companion
 
-**Total: 198 planned + released (16 released)**
+**Total: 201 planned + released (19 released)**

@@ -5,6 +5,144 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## Youth & Family Superhero Series Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · AI Video Line · 26 prompts across 6 phases · 37 pages
+
+- New catalog entry in the AI Video Line (section 28 → 29). The largest pack in
+  the library, because it spans three jobs the other packs split up: the story and
+  cast work the Superhero reading packs do, the screen production and continuity
+  work the AI Short Film pack does, and the packaging (key art, title treatment)
+  that nothing else covered.
+- **Prompt count: 26, above the 22 baseline — and NOT because of the audience.**
+  A youth pack would normally run fewer. It is up because the scope is three
+  packs in one: story and cast (5 prompts), continuity and design (4), series and
+  episodes (5), generation (4), packaging (2). Stated to the user in chat before
+  building, with an offer to split it into a pair instead; the user chose one pack.
+- **TWO LOCKS RUN THE PACK.** Prompt 1 sets the audience LEAN inside a
+  youth-and-family band — MG-lean (8-12, protagonist 10-13) or YA-lean (13-17,
+  protagonist 15-18) — rather than forcing a single audience, because family
+  content plays to a young viewer with an adult in the room. Prompt 2 is the MODE
+  LOCK — cinematic live-action look, or animated cartoon — and it carries a routing
+  table stating exactly how the choice changes the design bible, the style lock,
+  the plate method, the engine assignment and the kind of poster Prompt 23
+  produces. The mode prompt is honest that photoreal young human faces are the
+  hardest continuity problem in generated video and recommends cartoon mode for a
+  first series.
+- Phases: 1 Lock It (4) · 2 Cast and World (5) · 3 Lock the Look and the
+  Continuity (4) · 4 The Series and the Episodes (5) · 5 Make It (4) ·
+  6 Package and Release (4).
+- Series-specific machinery the single-film pack does not need: a silhouette test
+  so every character is identifiable at thumbnail size (P9); an expression plate
+  set, because a face locked only in neutral drifts the moment a character laughs
+  (P11); a locked power-effect phrase that must never be paraphrased, since it is
+  the most repeated visual in a superhero series (P13 item 1); a reusable episode
+  template with four rotating cold-open strategies (P15); a cliffhanger ladder
+  that classifies every episode ending as PROMISES / WITHHOLDS / RESOLVES / FLAT
+  and rewrites the last two (P18); establishing-shot reuse across episodes (P19
+  item 9); an episode assembly template built once (P22 item 9); and a
+  cross-episode drift check comparing episode one against the newest (P25 item 13).
+- The key art request is answered in full at P23: mode-routed poster design
+  (live-action key art conventions vs animated movie poster conventions), a
+  thumbnail-size survival test, a cliché forbid list, then the actual generation
+  prompt with a hard no-text rule and reserved space for the title — all text
+  added in post, per P24.
+- P26 item 1 carries a deliberate caution: platform policy for content aimed at
+  children is strict, specific and enforced, and the prompt instructs the author to
+  read current policy rather than assume.
+- Cover subtitle: "From Character to Finished Episodes, Cover Included".
+
+Files:
+- `AI Video Line/Youth_Family_Superhero_Series_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/youth_superhero_series_pack_data.py`
+
+---
+
+## Flash Fiction Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Adult Fiction Line · 16 prompts across 5 phases
+
+- New catalog entry under General/Other (section 11 → 12). Companion to the Short
+  Story pack rather than a subset of it: that pack treats flash as one of five
+  length bands (four touchpoints — the length lock, the skip note, the opening
+  allocation), this one treats it as its own form.
+- **Prompt count: 16, below the 22 baseline. User-approved on 2026-09-21 before
+  building,** per the count policy. Reasons: the form has no scenes, no subplot,
+  no scene budget, no series runway and no multi-pass drafting. Compression is the
+  spine rather than a phase. 5 phases rather than 6, since revision and submission
+  combine at this length.
+- Covers what the general pack has no room for: the **micro sub-forms** — drabble
+  at exactly 100 words, dribble at 50, hint fiction under 25 — where the count IS
+  the form; **title-as-text** (P5) treated as a structural component with five
+  distinct jobs, including the Missing Piece where the title supplies the fact the
+  prose withholds; **character in a sentence** rather than a paragraph (P4),
+  including whether to name the character at all; **flash-specific structures**
+  (P7) — single image, two-beat, list, borrowed form, monologue, catalogue of a
+  life, reveal, repetition — rather than the seven shapes scaled for 2,500+ words;
+  the **first fifteen words** rather than a first page (P8); and **compression to
+  an exact count** (P11) with a title-transfer trade for landing precisely on a
+  fixed number.
+- P10 deliberately instructs drafting at 130 percent of target, because cutting
+  down produces a denser piece than writing to length.
+- P12 is a dedicated read-aloud and rhythm pass, including final-syllable stress —
+  at this length rhythm does the work structure does in longer forms.
+- P15 covers the flash market ecosystem as distinct from short story markets, and
+  flags exact-count calls as unusually winnable because most entrants miss the count.
+- P16 item 4 records the constraint ladder as deliberate practice: write the same
+  piece at 1,000, then 500, then 100 words.
+- Cover subtitle: "From One Image to a Finished Piece".
+- Catalog note updated: of the three genre/form-specific short fiction packs
+  identified as worth building, Flash is now done; Mystery/Crime Short and Horror
+  Short remain open.
+
+Files:
+- `Adult Fiction Line/Flash_Fiction_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/flash_fiction_pack_data.py`
+
+---
+
+## Short Story Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Adult Fiction Line · 20 prompts across 6 phases
+
+- New catalog entry under General/Other (section 10 → 11). Distinct from the
+  planned "Short Story Collection" entry, which is a different job — assembling
+  and selling a set rather than writing one story. A note in the catalog records
+  the distinction.
+- **GENRE-GENERAL BY DESIGN**, and this is the pack's central design decision.
+  Short story craft is genre-independent in a way novel craft is not: single
+  effect, late entry, compression, the turn, an ending that reframes. Genre
+  changes the furniture, not the engine. So Prompt 1 is a genre-and-form lock
+  that names the genre, states its 5 expectations and 3 rejection triggers, names
+  that genre's specific short-form problem, locks a target length from five bands,
+  and issues a routing note telling the author which later prompts matter most for
+  their combination. Every later prompt inherits both locks — the craft audit at
+  Prompt 16 checks the story against the genre contract set at Prompt 1.
+- **Prompt count: 20, below the 22 baseline. User-approved on 2026-09-21 before
+  building,** per the count policy. Reasons: no subplot architecture, no chapter
+  plan, no series runway, and no multi-batch drafting — a short story is drafted
+  in one pass. It gains craft-density prompts instead, so it lands near baseline
+  rather than far below.
+- Phases: 1 Find the Story (4) · 2 Build the Situation (3) · 3 Structure It (4) ·
+  4 Write It (3) · 5 Revise (3) · 6 Send It Out (3).
+- Load-bearing pieces: P2 names the single effect and derives four requirements
+  that become the cut test for every scene; P3 diagnoses honestly whether the idea
+  is a story, an anecdote, a situation, a sketch, a premise or a compressed novel;
+  P6 finds the latest possible entry point and sets a backstory budget; P8 offers
+  seven short-fiction shapes rather than three acts and settles POV and tense;
+  P10 separates an earned turn from withheld information; P14 is a dedicated
+  compression pass instructed to cut 15 percent, to be run even when already under
+  word count.
+- P18-19 deliberately explain submission principles rather than naming markets,
+  since guidelines, rates and reading periods change.
+- Cover subtitle: "From One Idea to a Submittable Story".
+
+Files:
+- `Adult Fiction Line/Short_Story_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/short_story_pack_data.py`
+
+---
+
 ## AI Short Film Master Prompt Pack — v1.0 (2026-09-21)
 
 **Status:** New release · AI Video Line · 22 prompts across 6 phases (AI Video baseline)
