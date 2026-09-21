@@ -5,6 +5,48 @@ previous PDF and a snapshot of its data file into `versions/` before rebuilding.
 
 ---
 
+## Short Story Master Prompt Pack — v1.0 (2026-09-21)
+
+**Status:** New release · Adult Fiction Line · 20 prompts across 6 phases
+
+- New catalog entry under General/Other (section 10 → 11). Distinct from the
+  planned "Short Story Collection" entry, which is a different job — assembling
+  and selling a set rather than writing one story. A note in the catalog records
+  the distinction.
+- **GENRE-GENERAL BY DESIGN**, and this is the pack's central design decision.
+  Short story craft is genre-independent in a way novel craft is not: single
+  effect, late entry, compression, the turn, an ending that reframes. Genre
+  changes the furniture, not the engine. So Prompt 1 is a genre-and-form lock
+  that names the genre, states its 5 expectations and 3 rejection triggers, names
+  that genre's specific short-form problem, locks a target length from five bands,
+  and issues a routing note telling the author which later prompts matter most for
+  their combination. Every later prompt inherits both locks — the craft audit at
+  Prompt 16 checks the story against the genre contract set at Prompt 1.
+- **Prompt count: 20, below the 22 baseline. User-approved on 2026-09-21 before
+  building,** per the count policy. Reasons: no subplot architecture, no chapter
+  plan, no series runway, and no multi-batch drafting — a short story is drafted
+  in one pass. It gains craft-density prompts instead, so it lands near baseline
+  rather than far below.
+- Phases: 1 Find the Story (4) · 2 Build the Situation (3) · 3 Structure It (4) ·
+  4 Write It (3) · 5 Revise (3) · 6 Send It Out (3).
+- Load-bearing pieces: P2 names the single effect and derives four requirements
+  that become the cut test for every scene; P3 diagnoses honestly whether the idea
+  is a story, an anecdote, a situation, a sketch, a premise or a compressed novel;
+  P6 finds the latest possible entry point and sets a backstory budget; P8 offers
+  seven short-fiction shapes rather than three acts and settles POV and tense;
+  P10 separates an earned turn from withheld information; P14 is a dedicated
+  compression pass instructed to cut 15 percent, to be run even when already under
+  word count.
+- P18-19 deliberately explain submission principles rather than naming markets,
+  since guidelines, rates and reading periods change.
+- Cover subtitle: "From One Idea to a Submittable Story".
+
+Files:
+- `Adult Fiction Line/Short_Story_Master_Prompt_Pack_v1.0.pdf`
+- `_generator/short_story_pack_data.py`
+
+---
+
 ## AI Short Film Master Prompt Pack — v1.0 (2026-09-21)
 
 **Status:** New release · AI Video Line · 22 prompts across 6 phases (AI Video baseline)

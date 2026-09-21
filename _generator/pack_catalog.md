@@ -24,10 +24,16 @@ Status key: [x] released · [ ] planned. Every pack: Royalti Studios brand, vers
 - [x] Dark Fairytale Retelling (v1.0)
   Note: Dystopian and Post-Apocalyptic ship as one combined pack — "Dystopian & Post-Apocalyptic Master Prompt Pack v1.0" (25 prompts, Adult Fiction Line).
 
-## Adult Fiction Line — General/Other (10)
+## Adult Fiction Line — General/Other (11)
 - [x] Adventure (v2.0) · [ ] Action/Men's Adventure · [ ] Western · [ ] Historical Fiction
 - [ ] Women's Fiction · [ ] Book Club/Literary · [ ] Christian Fiction · [ ] Saga/Family Epic
-- [ ] Short Story Collection · [ ] Novella Factory
+- [x] Short Story (v1.0 — genre-general, genre locked at Prompt 1) · [ ] Short Story Collection · [ ] Novella Factory
+  Note: Short Story (writing one) and Short Story Collection (assembling and selling a set) are
+  separate packs. The writing pack is genre-general by design — short story craft is
+  genre-independent, so Prompt 1 locks genre and length and routes the rest.
+  Genre-specific short story packs are only worth building where a genre adds a real structural
+  problem the general pack cannot carry: Mystery/Crime Short (fair-play clueing at length),
+  Horror Short (dread economy), Flash Fiction (under 1,000 words is a different form).
 
 ## Young Adult Line (19)
 - [ ] YA Contemporary · [ ] YA Romance · [ ] YA Romantasy · [ ] YA Fantasy · [ ] YA Dystopian
@@ -94,4 +100,4 @@ Cover: "From One Idea to a Shootable Script" (or per-format) · Works with any L
 - [ ] Self-Help · [ ] Devotional/Faith · [ ] Memoir · [ ] How-To/Guide · [ ] Journal/Workbook (low content)
 - [ ] Cookbook · [ ] Kids' Educational Nonfiction · [ ] Homeschool Unit Studies · [ ] Planner Systems · [ ] Coloring Book Companion
 
-**Total: 198 planned + released (16 released)**
+**Total: 199 planned + released (17 released)**
